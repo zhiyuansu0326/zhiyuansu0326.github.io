@@ -27,36 +27,55 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.07 (expected)*: &nbsp;🎉 Selected as a Mitacs Globalink Research Intern at Dalhousie University (Canada).
+- *2025.02*: &nbsp;🎉 Participated in UC Davis Global Study Program and achieved Academic Perfection.
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/500x300.png' alt="kdd2025" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+[Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Zhiyuan Su**, Sunhao Dai, Xiao Zhang
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='images/500x300.png' alt="www2025" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
+
+Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+
+- Accepted at WWW 2025 (Acceptance Rate: 20.2%)
+
+</div>
+</div>
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: 🏆 Municipal Approval for Student Innovation Project (2nd time) – 7500 CNY
+- *2025.01*: 🧳 Mitacs-CSC Co-sponsored Scholarship – 6000 CAD
+- *2024.12*: 🏆 National Second Prize, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
+- *2024.10*: 🧮 Second Prize, Beijing Mathematical Contest in Modeling
+- *2024.10*: 🥈 Second-class Academic Scholarship – 3000 CNY
+- *2024.04*: 🏆 Municipal Approval for Student Innovation Project – 7500 CNY
+- *2024.04*: 🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *Jan 2025 – Mar 2025*, Global Study Program, University of California, Davis  
+  *Major: Mathematics & Statistics, Graduated with Academic Perfection*
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *Sep 2022 – Jun 2026 (expected)*, Gaoling School of Artificial Intelligence, Renmin University of China  
+  *Bachelor of Engineering in Artificial Intelligence*  
+  *Supervisors: Prof. Qi Qi, Prof. Xiao Zhang*
+
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *Jul 2025 – Oct 2025 (expected)*, Mitacs Globalink / Dalhousie University (Canada)
+- *Nov 2024 – Present*, Beijing Key Lab for Large Models and Governance (China)
+- *May 2024 – Sep 2024*, Engineering Research Center for Intelligent Recommendation, MOE (China)
+- *Oct 2023 – Sep 2024*, RUC-Baidu Pinecone Talent Elite Project, Baidu Inc. (China)
+
