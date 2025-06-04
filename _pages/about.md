@@ -27,8 +27,10 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
-- *2025.07 (expected)*: &nbsp;🎉 Selected as a Mitacs Globalink Research Intern at Dalhousie University (Canada).
-- *2025.02*: &nbsp;🎉 Participated in UC Davis Global Study Program and achieved Academic Perfection.
+- *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits is accepted by KDD 2025. Congratulations to myself on my *first first-author paper*!
+- *2025.03.25*: &nbsp;🎉 Complete Global Study Program at UC Davis and achieved *Academic Perfection*.
+- *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations is accepted by WWW 2025.
+- *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship *full-scholarship* summer research program.
 
 # 📝 Publications
 
@@ -56,11 +58,11 @@ Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 </div>
 
 # 🎖 Honors and Awards
-- *2025.04*: 🏆 Municipal Approval for Student Innovation Project (2nd time) – 7500 CNY
-- *2025.01*: 🧳 Mitacs-CSC Co-sponsored Scholarship – 6000 CAD
+- *2025.04*: 🏆 Municipal Approval for Student Innovation Project – 7500 CNY
+- *2025.01*: 💰 Mitacs-CSC Co-sponsored Scholarship – 6000 CAD
 - *2024.12*: 🏆 National Second Prize, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
-- *2024.10*: 🧮 Second Prize, Beijing Mathematical Contest in Modeling
-- *2024.10*: 🥈 Second-class Academic Scholarship – 3000 CNY
+- *2024.10*: 🏆 Second Prize, Beijing Mathematical Contest in Modeling
+- *2024.10*: 💰 Second-class Academic Scholarship – 3000 CNY
 - *2024.04*: 🏆 Municipal Approval for Student Innovation Project – 7500 CNY
 - *2024.04*: 🎖 Outstanding Communist Youth League Member
 
@@ -75,7 +77,5 @@ Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 # 💻 Internships
 - *Jul 2025 – Oct 2025 (expected)*, Mitacs Globalink / Dalhousie University (Canada)
-- *Nov 2024 – Present*, Beijing Key Lab for Large Models and Governance (China)
-- *May 2024 – Sep 2024*, Engineering Research Center for Intelligent Recommendation, MOE (China)
 - *Oct 2023 – Sep 2024*, RUC-Baidu Pinecone Talent Elite Project, Baidu Inc. (China)
 
