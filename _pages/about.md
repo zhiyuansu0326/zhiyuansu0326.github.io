@@ -42,7 +42,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
 
-*Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)*
+- *Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)*
 
 </div>
 </div>
@@ -54,7 +54,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
-*Accepted at WWW 2025 (Acceptance Rate: 20.2%)*
+- *Accepted at WWW 2025 (Acceptance Rate: 20.2%)*
 
 </div>
 </div>
