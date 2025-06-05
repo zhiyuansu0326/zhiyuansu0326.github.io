@@ -81,8 +81,8 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 # 💻 Work Experiences
 
-- *Jul 2025 – Oct 2025*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
-- *Oct 2023 – Sep 2024*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
+- *2025.07 – 2025.10*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
+- *2023.10 – 2024.09*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
 
 
 # 🪽 Beyond Academics
