@@ -49,12 +49,12 @@ Yuchao Ma^*, Weian Li^*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 
 # 🎖 Honors and Awards
-- *2025.04*: 🏆 **Municipal Approval** for Student Innovation Project – 7,500 CNY
+- *2025.04*: 🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
 - *2025.01*: 💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
-- *2024.12*: 🏆 **National Second Prize**, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
-- *2024.10*: 🏆 **Second Prize**, Beijing Mathematical Contest in Modeling
-- *2024.10*: 💰 **Second-class** Academic Scholarship – 3,000 CNY
-- *2024.04*: 🏆 **Municipal Approval** for Student Innovation Project – 7,500 CNY
+- *2024.12*: 🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
+- *2024.10*: 🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
+- *2024.10*: 💰 *Second-class* Academic Scholarship – 3,000 CNY
+- *2024.04*: 🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
 - *2024.04*: 🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
