@@ -27,35 +27,23 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
-- *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits is accepted by KDD 2025. Congratulations to myself on my *first first-author paper*!
-- *2025.03.25*: &nbsp;🎉 Complete Global Study Program at UC Davis and achieved *Academic Perfection*.
+- *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits is accepted by KDD 2025. Congratulations to myself on my **first first-author paper**!
+- *2025.03.25*: &nbsp;🎉 Complete Global Study Program at UC Davis and achieved **Academic Perfection**.
 - *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations is accepted by WWW 2025.
-- *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship *full-scholarship* summer research program.
+- *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship **full-scholarship** summer research program.
+
 
 # 📝 Publications
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='images/SeRe.pdf' alt="kdd2025" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
 [Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
-
 **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
-
 - Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)
-</div>
-</div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">WWW 2025</div><img src='images/TICNet.pdf' alt="www2025" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+---
 
 [A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
-
 Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
-
 - Accepted at WWW 2025 (Acceptance Rate: 20.2%)
 
-</div>
-</div>
 
 # 🎖 Honors and Awards
 - *2025.04*: 🏆 **Municipal Approval** for Student Innovation Project – 7,500 CNY
@@ -67,15 +55,15 @@ Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2024.04*: 🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
-- `Jan 2025 – Mar 2025`, **Global Study Program, University of California, Davis**  
+- `Jan 2025 – Mar 2025`, **Global Study Program, University of California, Davis** 🇺🇸
   Major: Mathematics & Statistics, Graduated with Academic Perfection
 
-- `Sep 2022 – Jun 2026 (expected)`, **Gaoling School of Artificial Intelligence, Renmin University of China**  
+- `Sep 2022 – Present`, **Gaoling School of Artificial Intelligence, Renmin University of China** 🇨🇦
   Bachelor of Engineering in Artificial Intelligence
   Supervisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)
 
 
-# 💻 Internships
-- *Jul 2025 – Oct 2025 (expected)*, Mitacs Globalink / Dalhousie University (Canada)
-- *Oct 2023 – Sep 2024*, RUC-Baidu Pinecone Talent Elite Project, Baidu Inc. (China)
+# 💻 Employment
+- `Jul 2025 – Oct 2025 (expected)`, **Mitacs Globalink Research Intern & Visiting Research Student, Dalhousie University** 🇨🇦
+- `Oct 2023 – Sep 2024`, **RUC-Baidu Pinecone Talent Elite Project, Baidu Inc.** 🇨🇳
 
