@@ -36,16 +36,16 @@ My research aims to build **intelligent systems that are elegant in theory and e
 # 📝 Publications
 - [Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
 
-**Zhiyuan Su**, Sunhao Dai, Xiao Zhang
+  **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
 
--- Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)
+   *Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)*
 
 
-[A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
+- [A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
 
-Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+  Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
-- Accepted at WWW 2025 (Acceptance Rate: 20.2%)
+  *Accepted at WWW 2025 (Acceptance Rate: 20.2%)*
 
 
 # 🎖 Honors and Awards
@@ -69,7 +69,13 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
   Supervisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)
 
 
-# 💻 Employment
+# 💻 Work Experiences
+
 - *Jul 2025 – Oct 2025 (expected)*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
-- *Oct 2023 – Sep 2024*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc. 
+- *Oct 2023 – Sep 2024*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
+
+
+# 🪽 Beyond Academics
+
+I love **music, literature, travel and badminton**. I am a **campus singer** at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC. I am also a **musician at NetEase Cloud Music**, and my stage name is [艾诺 Ayinor](http://music.163.com/#/artist?id=36180214). Recently, I am also working on my own new song, so stay tuned!
 
