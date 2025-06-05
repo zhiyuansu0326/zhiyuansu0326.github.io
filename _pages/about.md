@@ -60,18 +60,16 @@ My research aims to build **intelligent systems that are elegant in theory and e
 # 📖 Educations
 - *2025.01 – 2025.03*: 🇺🇸 **Global Study Program, University of California, Davis**
   
-  Major: Mathematics & Statistics, Graduated with Academic Perfection
+  *Major: Mathematics & Statistics, Graduated with Academic Perfection*
 
 - *2022.09 – Present*：🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
   
-  Bachelor of Engineering in Artificial Intelligence
-  
-  Supervisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)
+  *Bachelor of Engineering in Artificial Intelligence, Advisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)*
 
 
 # 💻 Work Experiences
 
-- *Jul 2025 – Oct 2025 (expected)*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
+- *Jul 2025 – Oct 2025*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
 - *Oct 2023 – Sep 2024*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
 
 
