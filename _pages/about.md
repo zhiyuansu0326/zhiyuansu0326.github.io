@@ -35,13 +35,16 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 # 📝 Publications
 [Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
+
 **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
+
 - Accepted at KDD 2025 Research Track (Acceptance Rate: 18.4%)
 
----
 
 [A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
-Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+
+Yuchao Ma^*, Weian Li^*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+
 - Accepted at WWW 2025 (Acceptance Rate: 20.2%)
 
 
@@ -55,15 +58,18 @@ Yuchao Ma*, Weian Li*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2024.04*: 🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
-- `Jan 2025 – Mar 2025`, **Global Study Program, University of California, Davis** 🇺🇸
+- *2025.01 – 2025.03*: 🇺🇸 **Global Study Program, University of California, Davis**
+  
   Major: Mathematics & Statistics, Graduated with Academic Perfection
 
-- `Sep 2022 – Present`, **Gaoling School of Artificial Intelligence, Renmin University of China** 🇨🇦
+- *2022.09 – Present*：🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
+  
   Bachelor of Engineering in Artificial Intelligence
+  
   Supervisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)
 
 
 # 💻 Employment
-- `Jul 2025 – Oct 2025 (expected)`, **Mitacs Globalink Research Intern & Visiting Research Student, Dalhousie University** 🇨🇦
-- `Oct 2023 – Sep 2024`, **RUC-Baidu Pinecone Talent Elite Project, Baidu Inc.** 🇨🇳
+- *Jul 2025 – Oct 2025 (expected)*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
+- *Oct 2023 – Sep 2024*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc. 
 
