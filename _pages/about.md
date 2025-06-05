@@ -43,7 +43,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 [A Context-Aware Framework for Integrating Ad Auctions and Recommendations](https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ)
 
-Yuchao Ma^*, Weian Li^*, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
+Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 - Accepted at WWW 2025 (Acceptance Rate: 20.2%)
 
