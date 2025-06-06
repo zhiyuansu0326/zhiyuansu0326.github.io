@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (Jan 2025 -- Mar 2025) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (Jul 2025 -- Oct 2025).
+I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (Jan 2025 -- Mar 2025) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (Jul 2025 -- Oct 2025), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
 
 My research interests focus on **reinforcement learning, online learning, continual learning, recommender systems, and computational advertising**. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
