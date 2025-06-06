@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (Jan 2025 -- Mar 2025) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (Jul 2025 -- Oct 2025), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
+I am currently a **junior** at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03) and will become a visiting research student at [Dalhousie University](https://www.dal.ca/) this summer (2025.07 -- 2025.10), co-sponsored by [Mitacs, Canada](https://www.mitacs.ca/) and [China Scholarship Council](https://www.csc.edu.cn/).
 
 My research interests focus on **reinforcement learning, online learning, continual learning, recommender systems, and computational advertising**. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
@@ -27,6 +27,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
+- *2025.06.06*: &nbsp;🎉 Receive a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
 - *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits is accepted by KDD 2025. Congratulations to myself on my **first first-author paper**!
 - *2025.03.25*: &nbsp;🎉 Complete Global Study Program at UC Davis and achieved **Academic Perfection**.
 - *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations is accepted by WWW 2025.
@@ -61,30 +62,30 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 
 
 # 🎖 Honors and Awards
-- *2025.04*: 🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2025.01*: 💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
-- *2024.12*: 🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
-- *2024.10*: 🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
-- *2024.10*: 💰 *Second-class* Academic Scholarship – 3,000 CNY
-- *2024.04*: 🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2024.04*: 🎖 Outstanding Communist Youth League Member
+- *2025.04*: &nbsp;🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
+- *2025.01*: &nbsp;💰 Mitacs-CSC Co-sponsored Scholarship – 6,000 CAD
+- *2024.12*: &nbsp;🏆 *National Second Prize*, 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works
+- *2024.10*: &nbsp;🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
+- *2024.10*: &nbsp;💰 *Second-class* Academic Scholarship – 3,000 CNY
+- *2024.04*: &nbsp;🏆 *Municipal Approval* for Student Innovation Project – 7,500 CNY
+- *2024.04*: &nbsp;🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
-- *2025.01 – 2025.03*: 🇺🇸 **Global Study Program, University of California, Davis**
+- *2025.01 – 2025.03*: &nbsp;🇺🇸 **Global Study Program, University of California, Davis**
   
   *Major: Mathematics & Statistics, Graduated with Academic Perfection*
 
-- *2022.09 – Present*: 🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
+- *2022.09 – Present*: &nbsp;🇨🇳 **Gaoling School of Artificial Intelligence, Renmin University of China**
   
   *Bachelor of Engineering in Artificial Intelligence, Advisors: [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi), [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/)*
 
 
 # 💻 Work Experiences
 
-- *2025.07 – 2025.10*: 🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
-- *2024.11 – Present*: 🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
-- *2024.05 – 2024.09*: 🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
-- *2023.10 – 2024.09*: 🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
+- *2025.07 – 2025.10*: &nbsp;🇨🇦 *Mitacs Globalink Research Intern & Visiting Research Student*, Dalhousie University
+- *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
+- *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
+- *2023.10 – 2024.09*: &nbsp;🇨🇳 *RUC-Baidu Pinecone Talent Elite Project*, Baidu Inc.
 
 
 # 🪽 Beyond Academics
