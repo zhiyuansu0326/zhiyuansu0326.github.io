@@ -74,6 +74,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 
 
 # 🔥 News
+- *2025.07.25*: &nbsp;🎉 Received a scholarship of **1,540 CAD** from Mitacs!
 - *2025.07.08*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!
 - *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis.
 - *2025.06.06*: &nbsp;🎉 Received a pre-departure scholarship of **3,600 CAD** from China Scholarship Council!
