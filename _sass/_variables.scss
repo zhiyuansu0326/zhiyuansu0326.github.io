@@ -14,7 +14,7 @@ $indent-var                 : 0.5em;
 
 /* system typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : Futura, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+$sans-serif                 : "Fivo Sans", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
 // $sans-serif                 : Georgia, serif, sans-serif;
 
 // $sans-serif                 : -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -31,6 +31,7 @@ $bodoni                     : "Bodoni MT", serif;
 $calisto                    : "Calisto MT", serif;
 $garamond                   : Garamond, serif;
 $futara                     : Futara, serif;
+$fifo                       : "Fivo Sans", serif;
 
 $global-font-family         : $sans-serif;
 $header-font-family         : $sans-serif;
