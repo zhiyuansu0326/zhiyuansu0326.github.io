@@ -77,7 +77,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 - *2025.07.08*: &nbsp;🎉 Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!
 - *2025.06.30*: &nbsp;🎉 Received the presidential scholarship of **40,000 CNY** for being an outstanding exchange student at UC Davis.
 - *2025.05.15*: &nbsp;🎉 A paper about clustering of neural bandits was accepted by **KDD 2025 Research Track**. Congratulations to myself on my **first first-author paper**!
-- *2025.03.25*: &nbsp;🎉 Completed Global Study Program at UC Davis and achieve **Academic Perfection**.
+- *2025.03.25*: &nbsp;🎉 Completed Global Study Program at UC Davis and achieved **Academic Perfection**.
 - *2025.02.03*: &nbsp;🎉 A paper about intergrating ad auctions and recommendations was accepted by **WWW 2025**. Congratulations to myself!
 - *2024.12.10*: &nbsp;🎉 Admitted to the Mitacs Globalink Research Internship **full-scholarship** summer research program.
 
