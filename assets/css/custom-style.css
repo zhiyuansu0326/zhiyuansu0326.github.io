@@ -83,10 +83,15 @@ body {
 }
 
 .sidebar .bio-line.line1 
-.sidebar .bio-line.line2,
+.sidebar .bio-line.line2{
+  color: rgb(174, 11, 42);
+  font-weight: bold;
+  font-style: italic; 
+}
 .sidebar .bio-line.line3 {
   color: rgb(174, 11, 42);
   font-weight: bold;
+  font-style: italic; 
 }
 
 /* section 样式，用于拼贴式分块显示 */
