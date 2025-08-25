@@ -57,13 +57,13 @@ body {
 .sidebar .author-avatar {
   display: block;
   margin: 0 auto;
-  width: 120px;        /* 根据需要调整尺寸 */
+  width: 200px;        /* 根据需要调整尺寸 */
   border-radius: 50%;
 }
 
 .sidebar .author-name {
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -83,6 +83,9 @@ body {
 .sidebar .bio-line {
   margin: 4px 0; /* 行间距 */
 }
+.sidebar .bio-line.line1 { color: #666; }
+.sidebar .bio-line.line2 { color: #888; font-style: italic; }
+.sidebar .bio-line.line3 { color: #999; }
 
 /* section 样式，用于拼贴式分块显示 */
 .section {
