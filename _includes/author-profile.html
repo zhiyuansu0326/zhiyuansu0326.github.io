@@ -4,29 +4,24 @@
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
-  <div class="author-profile">
-  <div class="author-header">
-    <img class="author-avatar" src="{{ site.author.avatar | relative_url }}" alt="Avatar">
-    <h3 class="author-name">{{ site.author.name }}</h3>
-    <hr class="author-divider">
+<div class="author-profile">
+  <div class="author__avatar">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" />
   </div>
 
+  <h2 class="author__name author-name">
+    {{ site.author.name }}{% if site.author.name_cn %} {{ site.author.name_cn }}{% endif %}
+  </h2>
+  
+  {%- comment -%}
   <div class="author-bio">
-    <p class="bio-line1">Senior Undergraduate</p>
-    <p class="bio-line2">Gaoling School of AI</p>
-    <p class="bio-line3">Renmin University of China</p>
+    {% for line in site.author.bio_lines %}
+      <span class="line">{{ line }}</span>
+    {% endfor %}
   </div>
+  {%- endcomment -%}
 </div>
 
-  
-<!--   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
-  </div>
-
-  <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div> -->
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
