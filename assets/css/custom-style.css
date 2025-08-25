@@ -1,0 +1,83 @@
+/* 浅色背景和全局字体设置 */
+body {
+  background-color: #fafafa;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+}
+/* 顶部导航栏样式：固定、透明、阴影 */
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+}
+.masthead .masthead__menu {
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+.masthead__menu-item a {
+  color: #333;
+  padding: 10px 15px;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+.masthead__menu-item a:hover,
+.masthead__menu-item.active a {
+  color: #007ACC;
+}
+/* 固定侧边栏（作者信息）样式 */
+.sidebar {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  width: 250px;
+}
+/* section 样式，用于拼贴式分块显示 */
+.section {
+  min-height: 100vh;
+  padding: 100px 20px 60px;
+  position: relative;
+  scroll-snap-align: start;
+}
+.section:nth-child(odd) {
+  background-color: #f5f5f5;
+}
+.section:nth-child(even) {
+  background-color: #ffffff;
+}
+/* 几何装饰元素 */
+.section::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  width: 200px;
+  height: 200px;
+  background: radial-gradient(circle at center, #e0f7fa, #fff);
+  opacity: 0.4;
+  border-radius: 50%;
+  z-index: -1;
+}
+/* 卡片样式，用于新闻、论文等列表 */
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
