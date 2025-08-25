@@ -49,6 +49,40 @@ body {
   left: 200px;
   width: 250px;
 }
+/* 让头像和姓名居中显示 */
+.sidebar .author-header {
+  text-align: center;
+}
+
+.sidebar .author-avatar {
+  display: block;
+  margin: 0 auto;
+  width: 120px;        /* 根据需要调整尺寸 */
+  border-radius: 50%;
+}
+
+.sidebar .author-name {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* 分割线样式 */
+.sidebar .author-divider {
+  margin: 10px auto;
+  width: 80%;
+  border-bottom: 1px solid #ccc;  /* 可调整颜色和粗细 */
+}
+
+/* 简介区域左对齐 */
+.sidebar .author-bio {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.sidebar .bio-line {
+  margin: 4px 0; /* 行间距 */
+}
 
 /* section 样式，用于拼贴式分块显示 */
 .section {
