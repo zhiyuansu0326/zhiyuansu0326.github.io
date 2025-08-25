@@ -4,14 +4,29 @@
 
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
-  <div class="author__avatar">
+  <div class="author-profile">
+  <div class="author-header">
+    <img class="author-avatar" src="{{ site.author.avatar | relative_url }}" alt="Avatar">
+    <h3 class="author-name">{{ site.author.name }}</h3>
+    <hr class="author-divider">
+  </div>
+
+  <div class="author-bio">
+    <p class="bio-line line1">Gaoling School of Artificial Intelligence, Renmin University of China</p>
+    <p class="bio-line line2">“Everything that rises must converge.”</p>
+    <p class="bio-line line3">Beijing, China</p>
+  </div>
+</div>
+
+  
+<!--   <div class="author__avatar">
     <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-  </div>
+  </div> -->
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
