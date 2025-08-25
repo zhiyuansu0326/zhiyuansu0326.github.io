@@ -78,13 +78,16 @@ body {
   text-align: center;
   margin-top: 10px;
 }
-
-.sidebar .bio-line {
-  margin: 4px 0; /* 行间距 */
+.sidebar .author-bio p {
+  margin: 4px 0;
 }
+
 .sidebar .bio-line.line1 
-.sidebar .bio-line.line2 { color: rgb(174, 11, 42); font-style: bold; }
-.sidebar .bio-line.line3 { color: rgb(174, 11, 42); font-style: bold; }
+.sidebar .bio-line.line2,
+.sidebar .bio-line.line3 {
+  color: rgb(174, 11, 42);
+  font-weight: bold;
+}
 
 /* section 样式，用于拼贴式分块显示 */
 .section {
