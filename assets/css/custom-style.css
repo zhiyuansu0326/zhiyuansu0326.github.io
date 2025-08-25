@@ -82,13 +82,13 @@ body {
   margin: 4px 0;
 }
 
-.sidebar .bio-line.line1 
-.sidebar .bio-line.line2{
+.sidebar .bio-line1 
+.sidebar .bio-line2{
   color: rgb(174, 11, 42);
   font-weight: bold;
   font-style: italic; 
 }
-.sidebar .bio-line.line3 {
+.sidebar .bio-line3 {
   color: rgb(174, 11, 42);
   font-weight: bold;
   font-style: italic; 
