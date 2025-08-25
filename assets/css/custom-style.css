@@ -83,8 +83,8 @@ body {
 .sidebar .bio-line {
   margin: 4px 0; /* 行间距 */
 }
-.sidebar .bio-line.line1 { color: #666; }
-.sidebar .bio-line.line2 { color: #888; font-style: italic; }
+.sidebar .bio-line.line1 { color: rgb(174, 11, 42); font-style: bold; }
+.sidebar .bio-line.line2 { color: rgb(174, 11, 42); font-style: bold; }
 .sidebar .bio-line.line3 { color: #999; }
 
 /* section 样式，用于拼贴式分块显示 */
