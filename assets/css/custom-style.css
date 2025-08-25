@@ -57,13 +57,13 @@ body {
 .sidebar .author-avatar {
   display: block;
   margin: 0 auto;
-  width: 200px;        /* 根据需要调整尺寸 */
+  width: 180px;        /* 根据需要调整尺寸 */
   border-radius: 50%;
 }
 
 .sidebar .author-name {
   margin-top: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
