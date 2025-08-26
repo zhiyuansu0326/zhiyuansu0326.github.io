@@ -61,6 +61,7 @@ body {
   margin: 0 auto;
   width: 150px; /* 可按需调整大小 */
   border-radius: 50%;
+  text-align: center;
 }
 
 /* 姓名样式 */
@@ -68,6 +69,7 @@ body {
   margin: 12px 0 6px;
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: center;
 }
 
 /* bio 样式：如果你希望多行左对齐 */
@@ -77,8 +79,9 @@ body {
   text-align: left;
   display: inline-block;
   max-width: 220px; /* 控制宽度，防止过宽 */
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   line-height: 1.4;
+  text-align: center;
   color: #444;
 }
 
