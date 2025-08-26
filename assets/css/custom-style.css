@@ -49,50 +49,39 @@ body {
   left: 200px;
   width: 250px;
 }
-/* 让头像和姓名居中显示 */
-.sidebar .author-header {
+/* 让侧边栏里的 author-profile 内容居中 */
+.sidebar .author-profile,
+.sidebar-profile {
   text-align: center;
 }
 
-.sidebar .author-avatar {
+/* 居中头像 */
+.sidebar .author-avatar img {
   display: block;
   margin: 0 auto;
-  width: 180px;        /* 根据需要调整尺寸 */
+  width: 120px; /* 可按需调整大小 */
   border-radius: 50%;
 }
 
+/* 姓名样式 */
 .sidebar .author-name {
-  margin-top: 10px;
-  font-size: 1.5em;
+  margin: 12px 0 6px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
-/* 分割线样式 */
-.sidebar .author-divider {
-  margin: 10px auto;
-  width: 80%;
-  border-bottom: 1px solid #ccc;  /* 可调整颜色和粗细 */
-}
-
+/* bio 样式：如果你希望多行左对齐 */
 .sidebar .author-bio {
-  text-align: center;
-  margin-top: 10px;
-}
-.sidebar .author-bio p {
-  margin: 4px 0;
+  margin-top: 6px;
+  white-space: pre-line; /* 保留换行 */
+  text-align: left;
+  display: inline-block;
+  max-width: 220px; /* 控制宽度，防止过宽 */
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #444;
 }
 
-.sidebar .bio-line1 
-.sidebar .bio-line2{
-  color: rgb(174, 11, 42);
-  font-weight: bold;
-  font-style: italic; 
-}
-.sidebar .bio-line3 {
-  color: rgb(174, 11, 42);
-  font-weight: bold;
-  font-style: italic; 
-}
 
 /* section 样式，用于拼贴式分块显示 */
 .section {
