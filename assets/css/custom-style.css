@@ -37,7 +37,7 @@ body {
 .masthead__menu-item.active a {
   color: #007ACC;
 }
-/* 固定侧边栏样式 */
+/* /* 固定侧边栏样式 */
 .sidebar {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
@@ -48,7 +48,7 @@ body {
   /* 原为 right: 20px;  */
   left: 200px;
   width: 250px;
-}
+} */
 /* 让侧边栏里的 author-profile 内容居中 */
 .sidebar .author-profile,
 .sidebar-profile {
@@ -59,14 +59,14 @@ body {
 .sidebar .author-avatar img {
   display: block;
   margin: 0 auto;
-  width: 120px; /* 可按需调整大小 */
+  width: 150px; /* 可按需调整大小 */
   border-radius: 50%;
 }
 
 /* 姓名样式 */
 .sidebar .author-name {
   margin: 12px 0 6px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 
