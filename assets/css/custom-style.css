@@ -72,6 +72,13 @@ body {
   text-align: center;
 }
 
+/* 分割线样式 */
+.sidebar .author-divider {
+  margin: 10px auto;
+  width: 80%;
+  border-bottom: 1px solid #ccc;  /* 可调整颜色和粗细 */
+}
+
 /* bio 样式：如果你希望多行左对齐 */
 .sidebar .author-bio {
   margin-top: 6px;
@@ -79,7 +86,7 @@ body {
   text-align: left;
   display: inline-block;
   max-width: 220px; /* 控制宽度，防止过宽 */
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   line-height: 1.4;
   text-align: center;
   color: #444;
