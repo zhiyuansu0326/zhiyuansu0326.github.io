@@ -118,7 +118,6 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
 - *2024.10*: &nbsp;🏆 *Second Prize*, Beijing Mathematical Contest in Modeling
 - *2024.10*: &nbsp;💰 *Second-class* Academic Scholarship – 3,000 CNY
 - *2024.04*: &nbsp;💰 *Municipal Approval* for Student Innovation Project – 7,500 CNY
-- *2024.04*: &nbsp;🎖 Outstanding Communist Youth League Member
 
 # 📖 Educations
 - *2025.01 – 2025.03*: &nbsp;🇺🇸 **Global Study Program, University of California, Davis**
@@ -137,8 +136,7 @@ Yuchao Ma, Weian Li, Yuejia Dou, **Zhiyuan Su**, Changyuan Yu, Qi Qi
   
   *- Project: AI safety for recommender systems in social media services*
   
-- *2024.11 – Present*: &nbsp;🇨🇳 *Research Intern*, Beijing Key Laboratory of Research on Large Models and Intelligent Governance
-- *2024.05 – 2024.09*: &nbsp;🇨🇳 *Research Intern*, Engineering Research Center of Next-Generation Intelligent Search and Recommendation, MOE
+- *2024.05 – 2024.09*: &nbsp;🇨🇳 *Summer Intern*, Pinecone Talent Elite Project, Baidu Inc.
 
 
 # 💼 Services
