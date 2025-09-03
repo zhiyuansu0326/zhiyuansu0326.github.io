@@ -69,7 +69,7 @@ Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me Julian. I a
 
 My research interests focus on **reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. In addition, I am also interested in board application of AI models. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
-(2) controllable model editing in generative recommendation.  
+(2) controllable model editing in sequential recommendation.  
 My research aims to build **intelligent systems that are elegant in theory and effective in practice**, and provide credible solutions to the urgent needs of contemporary society.
 
 
