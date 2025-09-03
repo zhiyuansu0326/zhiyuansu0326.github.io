@@ -86,7 +86,7 @@ My research aims to build **intelligent systems that are elegant in theory and e
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">KDD 2025</div><img src='../images/SeRe.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
   
-[Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://arxiv.org/pdf/2506.12389)
+[Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity](https://dl.acm.org/doi/pdf/10.1145/3711896.3737105)
 
 **Zhiyuan Su**, Sunhao Dai, Xiao Zhang
 
