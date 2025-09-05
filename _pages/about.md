@@ -65,7 +65,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me Julian. I am currently a **senior** undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03). Now I am also a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
+Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me “Julian”. I am currently a **senior** undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03). Now I am also a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
 
 My research interests focus on **reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. In addition, I am also interested in board application of AI models. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
