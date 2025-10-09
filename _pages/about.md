@@ -65,12 +65,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me “Julian”. I am currently a **senior** undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03). Now I am also a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
+Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me “Julian”. I am currently a **senior** undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China](https://www.ruc.edu.cn/). I was an exchange student at [University of California, Davis](https://www.ucdavis.edu/) (2025.01 -- 2025.03) and a visiting research student at [Dalhousie University](https://www.dal.ca/) (2025.07 -- 2025.10), sponsored by [Mitacs, Canada](https://www.mitacs.ca/).
 
 My research interests focus on **reinforcement learning, online learning, continual learning, recommender system, and computational advertising**. In addition, I am also interested in board application of AI models. Recently, I am focusing on:  
 (1) sequential bidding ranking algorithms;  
 (2) controllable model editing in sequential recommendation.  
 My research aims to build **intelligent systems that are elegant in theory and effective in practice**, and provide credible solutions to the urgent needs of contemporary society.
+
+<span style="color:red; font-weight:bold;">
+❗️Now I am actively seeking a PhD position for [Fall 2026]. If you believe I could be a potential fit for your group, please contact me at 
+<a href="mailto:zhiyuansurenminu@gmail.com">zhiyuansurenminu@gmail.com</a>.
+</span>
+
 
 
 # 🔥 News
