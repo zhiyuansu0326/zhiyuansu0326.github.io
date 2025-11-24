@@ -58,12 +58,7 @@ redirect_from:
         </div>
       </div>
       <div class="card-content">
-        <p>My research interests focus on <strong>reinforcement learning, online learning, continual learning, recommender system, and computational advertising</strong>. In addition, I am also interested in board application of AI models.</p>
-        <p><strong>Recently, I am focusing on:</strong></p>
-        <ul>
-          <li>Sequential bidding ranking algorithms</li>
-          <li>Controllable model editing in sequential recommendation</li>
-        </ul>
+        <p>My research interests focus on <strong>reinforcement learning, online learning, continual learning, recommender system, and computational advertising</strong>. In addition, I am also interested in board application of AI models. <strong>Recently, I am focusing on:</strong> (1) Sequential bidding ranking algorithms, (2) Controllable model editing in generative recommendation.</p>
         <p>My research aims to build <strong>intelligent systems that are elegant in theory and effective in practice</strong>, and provide credible solutions to the urgent needs of contemporary society.</p>
       </div>
     </div>
@@ -107,6 +102,26 @@ redirect_from:
 <section id="publications" class="section">
   <h2 class="section-title"><i class="fas fa-file-alt"></i> Publications</h2>
   <div class="paper-list">
+
+    <div class="paper-item">
+      <div class="paper-image-container">
+        <img src="{{ '/images/IMPACTNet.png' | relative_url }}" alt="IMPACTNet Paper">
+      </div>
+      <div class="paper-content">
+        <h3 class="paper-title">
+          <a href="#" target="_blank">IMPACTNet: Unifying Auto-bidding in End-to-End Merged Auctions</a>
+        </h3>
+        <p class="paper-authors">
+          Yuhan Wang, Yuchao Ma, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
+        </p>
+        <div class="paper-meta">
+          <span class="paper-tag conference">KDD 2026</span>
+          <span class="paper-tag">Automated Mechanism Design</span>
+          <span class="paper-tag">Auto-Bidding</span>
+        </div>
+      </div>
+    </div>
+
     <div class="paper-item">
       <div class="paper-image-container">
         <img src="{{ '/images/SeRe.png' | relative_url }}" alt="SeRe Paper">
@@ -121,8 +136,8 @@ redirect_from:
           <span class="paper-tag">Neural Bandits</span>
           <span class="paper-tag">Continual Learning</span>
         </div>
-</div>
-</div>
+      </div>
+    </div>
 
     <div class="paper-item">
       <div class="paper-image-container">
@@ -140,8 +155,10 @@ redirect_from:
         </div>
       </div>
     </div>
+
   </div>
 </section>
+
 
 <!-- Honors and Awards Section -->
 <section id="honors" class="section">
