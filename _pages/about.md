@@ -166,11 +166,11 @@ redirect_from:
       </div>
       <div class="news-item">
         <div class="news-date">Dec 2024</div>
-        <div class="news-content"><span class="highlight-red">National Second Prize</span> [19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works]</div>
+        <div class="news-content"><span class="highlight-red">[National Second Prize]</span> 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works</div>
       </div>
       <div class="news-item">
         <div class="news-date">Oct 2024</div>
-        <div class="news-content"><span class="highlight-red">Second Prize</span> [Beijing Mathematical Contest in Modeling]</div>
+        <div class="news-content"><span class="highlight-red">[Second Prize]</span> Beijing Mathematical Contest in Modeling</div>
       </div>
       <div class="news-item">
         <div class="news-date">Oct 2024</div>
@@ -220,13 +220,11 @@ redirect_from:
         <img src="{{ '/images/dal_logo.png' | relative_url }}" alt="Dalhousie">
       </div>
       <div class="list-item-content">
-        <div class="list-item-date">Jul 2025 – Oct 2025</div>
-        <div class="list-item-title">Mitacs Globalink Research Intern & Visiting Research Student, Dalhousie University</div>
+        <div class="list-item-date">Jul 2025 – Oct 2025 | Mitacs Research Intern </div>
+        <div class="list-item-title">Faculty of Computer Science, Dalhousie University</div>
         <div class="list-item-desc">
-          <a href="https://www.dal.ca/faculty/computerscience.html" target="_blank">Faculty of Computer Science</a><br>
-          Lab: <a href="https://web.cs.dal.ca/~gaw/" target="_blank">Dalhousie Applied Machine Learning Research Lab</a><br>
-          Collaborator: <a href="https://wuga214.github.io/" target="_blank">Dr. Ga Wu</a><br>
-          Project: AI safety for recommender systems in social media services
+          Visiting student at <a href="https://web.cs.dal.ca/~gaw/" target="_blank">Dalhousie Applied Machine Learning Research Lab (DAMLR)</a><br>
+          Supervisor: <a href="https://wuga214.github.io/" target="_blank">Dr. Ga Wu</a>
         </div>
       </div>
     </div>
@@ -274,7 +272,7 @@ redirect_from:
       </div>
       <div class="card-content">
         <p>I love <strong>music, literature, travel and badminton</strong>. I am a <strong>campus singer</strong> at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC.</p>
-        <p>I am also a <strong>musician at NetEase Cloud Music</strong>, and my stage name is <a href="http://music.163.com/#/artist?id=36180214" target="_blank" style="color: var(--ruc-red);">艾诺 Ayinor</a>. Recently, I am also working on my own new song, so stay tuned!</p>
+        <p>I am also a <strong>musician at NetEase Cloud Music</strong>, and my stage name is <a href="http://music.163.com/#/artist?id=36180214" target="_blank" style="color: var(--ruc-red);">Ayinor</a>.</p>
       </div>
     </div>
 </div>
