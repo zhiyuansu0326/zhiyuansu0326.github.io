@@ -211,7 +211,7 @@ redirect_from:
       </div>
       <div class="list-item-content">
         <div class="list-item-date">Jan 2025 – Mar 2025</div>
-        <div class="list-item-title">Global Study Program, University of California, Davis</div>
+        <div class="list-item-title">Exchange, University of California, Davis</div>
         <div class="list-item-desc">Major: Mathematics & Statistics<br>Graduated with Academic Perfection</div>
       </div>
     </div>
@@ -250,8 +250,8 @@ redirect_from:
         <img src="{{ '/images/baidu_color.png' | relative_url }}" alt="Baidu">
       </div>
       <div class="list-item-content">
-        <div class="list-item-date">May 2024 – Sep 2024</div>
-        <div class="list-item-title">Summer Intern, Baidu Inc.</div>
+        <div class="list-item-date">May 2024 – Sep 2024 | Summer Intern</div>
+        <div class="list-item-title">Baidu Inc.</div>
         <div class="list-item-desc">Pinecone Talent Elite Project</div>
       </div>
     </div>
