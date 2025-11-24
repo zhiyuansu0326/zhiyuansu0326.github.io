@@ -28,7 +28,7 @@ redirect_from:
       <a href="{{ site.author.googlescholar }}" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
       <a href="https://github.com/{{ site.author.github }}" target="_blank"><i class="fab fa-github"></i> GitHub</a>
       <a href="{{ site.author.orcid }}" target="_blank"><i class="ai ai-orcid"></i> ORCID</a>
-      <a href="#" class="rednote-link" data-image="{{ '/images/rednote.png' | relative_url }}"><i class="fas fa-book"></i> REDnote</a>
+      <!-- <a href="#" class="rednote-link" data-image="{{ '/images/rednote.png' | relative_url }}"><i class="fas fa-book"></i> REDnote</a> -->
     </div>
   </div>
 </section>
