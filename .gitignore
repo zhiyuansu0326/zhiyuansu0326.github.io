@@ -1,0 +1,48 @@
+# Jekyll生成的文件
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# 备份文件
+*.backup
+*~
+.DS_Store
+
+# 临时文件
+*.tmp
+*.swp
+*.swo
+
+# 日志文件
+*.log
+
+# Ruby相关
+.bundle/
+vendor/
+
+# 环境文件
+.env
+.env.local
+
+# IDE相关
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 不上传的临时脚本（可选）
+# docker-serve-*.sh
+# restore-backup.sh
+
