@@ -173,17 +173,21 @@ redirect_from:
   <div class="card">
     <div class="card-content">
       <div class="news-item">
+        <div class="news-date">Nov 2025</div>
+        <div class="news-content">Qiushi Academic International Support Program <span class="highlight-red">[Highest Funding]</span></div>
+      </div>
+      <div class="news-item">
         <div class="news-date">Jul 2025</div>
         <div class="news-content">SIGKDD-supported KDD 2025 Student Travel Award <span class="highlight-red">[1,000 USD]</span></div>
       </div>
       <div class="news-item">
         <div class="news-date">Jun 2025</div>
-        <div class="news-content">Presidential Scholarship for Outstanding International Exchange <span class="highlight-red">[40,000 CNY]</span></div>
+        <div class="news-content">Presidential Scholarship <span class="highlight-red">[40,000 CNY]</span></div>
       </div>
-      <div class="news-item">
+      <!-- <div class="news-item">
         <div class="news-date">Apr 2025</div>
         <div class="news-content">Municipal Approval for Student Innovation Project <span class="highlight-red">[7,500 CNY]</span></div>
-      </div>
+      </div> -->
       <div class="news-item">
         <div class="news-date">Jan 2025</div>
         <div class="news-content">Mitacs Globalink Internship Scholarship <span class="highlight-red">[6,000 CAD]</span></div>
@@ -192,18 +196,18 @@ redirect_from:
         <div class="news-date">Dec 2024</div>
         <div class="news-content"><span class="highlight-red">[National Second Prize]</span> 19th "Challenge Cup" National Undergraduate Curricular Academic Science and Technology Works</div>
       </div>
-      <div class="news-item">
+      <!-- <div class="news-item">
         <div class="news-date">Oct 2024</div>
-        <div class="news-content"><span class="highlight-red">[Second Prize]</span> Beijing Mathematical Contest in Modeling</div>
-      </div>
-      <div class="news-item">
+        <div class="news-content"><span class="highlight-red">[Provincial Second Prize]</span> Beijing Mathematical Contest in Modeling</div>
+      </div> -->
+      <!-- <div class="news-item">
         <div class="news-date">Oct 2024</div>
         <div class="news-content">Second-class Academic Scholarship <span class="highlight-red">[3,000 CNY]</span></div>
-      </div>
-      <div class="news-item">
+      </div> -->
+      <!-- <div class="news-item">
         <div class="news-date">Apr 2024</div>
         <div class="news-content">Municipal Approval for Student Innovation Project <span class="highlight-red">[7,500 CNY]</span></div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
