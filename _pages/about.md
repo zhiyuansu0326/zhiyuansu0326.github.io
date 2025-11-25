@@ -71,29 +71,33 @@ redirect_from:
   <div class="card">
     <div class="card-content">
       <div class="news-item">
+        <div class="news-date">Nov 24, 2025</div>
+        <div class="news-content">IMPACTNet was accepted by <strong>KDD 2026 Research Track</strong>. Congratulations to Yuhan!</div>
+      </div>
+      <div class="news-item">
         <div class="news-date">Jul 08, 2025</div>
         <div class="news-content">Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!</div>
       </div>
-      <div class="news-item">
+      <!-- <div class="news-item">
         <div class="news-date">Jun 30, 2025</div>
         <div class="news-content">Received the presidential scholarship of <strong>40,000 CNY</strong> for being an outstanding exchange student at UC Davis.</div>
-      </div>
+      </div> -->
       <div class="news-item">
         <div class="news-date">May 15, 2025</div>
         <div class="news-content">A paper about clustering of neural bandits was accepted by <strong>KDD 2025 Research Track</strong>. Congratulations to myself on my <strong>first first-author paper</strong>!</div>
       </div>
-      <div class="news-item">
+      <!-- <div class="news-item">
         <div class="news-date">Mar 25, 2025</div>
         <div class="news-content">Completed Global Study Program at UC Davis and achieved <strong>Academic Perfection</strong>.</div>
-      </div>
+      </div> -->
       <div class="news-item">
         <div class="news-date">Feb 03, 2025</div>
-        <div class="news-content">A paper about integrating ad auctions and recommendations was accepted by <strong>TheWebConf 2025</strong>. Congratulations to myself!</div>
+        <div class="news-content">A paper about integrating ad auctions and recommendations was accepted by <strong>TheWebConf 2025</strong>.</div>
       </div>
-      <div class="news-item">
+      <!-- <div class="news-item">
         <div class="news-date">Dec 10, 2024</div>
         <div class="news-content">Admitted to the Mitacs Globalink Research Internship <strong>full-scholarship</strong> summer research program.</div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>
@@ -118,6 +122,7 @@ redirect_from:
           <span class="paper-tag conference">KDD 2026</span>
           <span class="paper-tag">Automated Mechanism Design</span>
           <span class="paper-tag">Auto-Bidding</span>
+          <span class="paper-tag">Externalities</span>
         </div>
       </div>
     </div>
@@ -133,7 +138,8 @@ redirect_from:
         <p class="paper-authors"><strong>Zhiyuan Su</strong>, Sunhao Dai, Xiao Zhang</p>
         <div class="paper-meta">
           <span class="paper-tag conference">KDD 2025</span>
-          <span class="paper-tag">Neural Bandits</span>
+          <span class="paper-tag">Neural Bandit</span>
+          <span class="paper-tag">Sequential Decision Making</span>
           <span class="paper-tag">Continual Learning</span>
         </div>
       </div>
@@ -150,8 +156,9 @@ redirect_from:
         <p class="paper-authors">Yuchao Ma, Weian Li, Yuejia Dou, <strong>Zhiyuan Su</strong>, Changyuan Yu, Qi Qi</p>
         <div class="paper-meta">
           <span class="paper-tag conference">TheWebConf 2025</span>
-          <span class="paper-tag">Ad Auctions</span>
-          <span class="paper-tag">Recommendations</span>
+          <span class="paper-tag">Automated Mechanism Design</span>
+          <span class="paper-tag">Integrated Ad Auction</span>
+          <span class="paper-tag">Online Advertising</span>
         </div>
       </div>
     </div>
