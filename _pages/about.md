@@ -93,7 +93,7 @@ redirect_from:
       </div> -->
       <div class="news-item">
         <div class="news-date">Feb 03, 2025</div>
-        <div class="news-content">A paper about integrating ad auctions and recommendations was accepted by <strong>TheWebConf 2025</strong>.</div>
+        <div class="news-content">A paper about integrating ad auctions and recommendations was accepted by <strong>WWW 2025</strong>.</div>
       </div>
       <!-- <div class="news-item">
         <div class="news-date">Dec 10, 2024</div>
@@ -156,7 +156,7 @@ redirect_from:
         </h3>
         <p class="paper-authors">Yuchao Ma, Weian Li, Yuejia Dou, <strong>Zhiyuan Su</strong>, Changyuan Yu, Qi Qi</p>
         <div class="paper-meta">
-          <span class="paper-tag conference">TheWebConf 2025</span>
+          <span class="paper-tag conference">WWW 2025</span>
           <span class="paper-tag">Automated Mechanism Design</span>
           <span class="paper-tag">Integrated Ad Auction</span>
           <span class="paper-tag">Online Advertising</span>
