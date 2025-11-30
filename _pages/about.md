@@ -282,7 +282,7 @@ redirect_from:
         </div>
       </div>
       <div class="card-content">
-        <p>Artifact badging reviewer, <strong>KDD 2025</strong></p>
+        <p><strong>Reviewer</strong>, KDD 2025, WWW 2025.</p>
       </div>
     </div>
   </div>
@@ -301,7 +301,7 @@ redirect_from:
       </div>
       <div class="card-content">
         <p>I love <strong>music, literature, travel and badminton</strong>. I am a <strong>campus singer</strong> at Renmin University of China and have been invited to participate in various concerts and music festivals at RUC.</p>
-        <p>I am also a <strong>musician at NetEase Cloud Music</strong>, and my stage name is <a href="http://music.163.com/#/artist?id=36180214" target="_blank" style="color: var(--ruc-red);">Ayinor</a>.</p>
+        <p>I am also a <strong>musician</strong> at <strong>NetEase Cloud Music</strong>, and my stage name is <a href="http://music.163.com/#/artist?id=36180214" target="_blank" style="color: var(--ruc-red);">Ayinor</a>.</p>
       </div>
     </div>
 </div>
