@@ -18,7 +18,7 @@ redirect_from:
 <!-- Hero Section -->
 <section id="home" class="hero-section">
   <div class="hero-content">
-    <img src="{{ '/images/szy1.png' | relative_url }}" alt="Zhiyuan Su" class="hero-avatar">
+    <img src="{{ '/images/szy.png' | relative_url }}" alt="Zhiyuan Su" class="hero-avatar">
     <h1 class="hero-name">Zhiyuan (Julian) Su</h1>
     <p class="hero-title">Senior Undergraduate</p>
     <p class="hero-school">Gaoling School of Artificial Intelligence</p>
