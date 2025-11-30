@@ -33,7 +33,7 @@ redirect_from:
   </div>
 </section>
 
-<!-- About Section -->
+<!-- About Section --> 
 <section id="about" class="section">
   <h2 class="section-title"><i class="fas fa-user"></i> About Me</h2>
   <div class="card-grid">
