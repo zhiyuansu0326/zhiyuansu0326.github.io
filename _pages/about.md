@@ -46,7 +46,7 @@ redirect_from:
       </div>
       <div class="card-content">
         <p>Hi there, I am Zhiyuan Su (Chinese name: 苏智渊), you can call me "Julian". I am currently a <strong>senior</strong> undergraduate at <a href="http://ai.ruc.edu.cn/" target="_blank">Gaoling School of Artificial Intelligence</a>, <a href="https://www.ruc.edu.cn/" target="_blank">Renmin University of China</a>.</p>
-        <p>I was an exchange student at <a href="https://www.ucdavis.edu/" target="_blank">University of California, Davis</a> (2025.01 -- 2025.03) and a visiting research student at <a href="https://www.dal.ca/" target="_blank">Dalhousie University</a> (2025.07 -- 2025.10), sponsored by <a href="https://www.mitacs.ca/" target="_blank">Mitacs, Canada</a>.</p>
+        <p>I was an exchange student at <a href="https://www.ucdavis.edu/" target="_blank">University of California, Davis</a> (Jan 2025 - Mar 2025) and a visiting research student at <a href="https://www.dal.ca/" target="_blank">Dalhousie University</a> (Jul 2025 - Oct 2025), sponsored by <a href="https://www.mitacs.ca/" target="_blank">Mitacs, Canada</a>.</p>
         <p>❗️<span style="color:red">I am actively seeking Ph.D. positions starting in Fall 2026. If you think my background is a good fit for you, please don't hesitate to contact me via <a href="zhiyuansurenminu@gmail.com" target="_blank">zhiyuansurenminu@gmail.com</a>!</span></p>
 </div>
 </div>
