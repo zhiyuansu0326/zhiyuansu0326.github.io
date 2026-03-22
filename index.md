@@ -6,7 +6,7 @@ layout: homepage
 
 <h2 style="margin: 80px 0px 10px;"></h2>
 
-Hi there! I am a senior undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China (RUC) 🦌](https://www.ruc.edu.cn/) , working with [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi) and [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/). I was also an exchange student at [University of California, Davis 🚲](https://www.ucdavis.edu/) and a visiting researcher at [Dalhousie University ⚓️](https://www.dal.ca/) & [Mitacs 🍁](https://www.mitacs.ca/) , working closely with [Prof. Ga Wu](https://web.cs.dal.ca/~gaw/).
+Hi there, I am a senior undergraduate at [Gaoling School of Artificial Intelligence](http://ai.ruc.edu.cn/), [Renmin University of China (RUC) 🦌](https://www.ruc.edu.cn/) , working with [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi) and [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/). I was also an exchange student at [University of California, Davis 🚲](https://www.ucdavis.edu/) and a visiting researcher at [Dalhousie University ⚓️](https://www.dal.ca/) & [Mitacs 🍁](https://www.mitacs.ca/) , working closely with [Prof. Ga Wu](https://web.cs.dal.ca/~gaw/).
 
 My research focuses on **reinforcement learning**, **sequential decision-making**, **online learning**, and **generative AI**, with an emphasis on developing **theoretically grounded and practically scalable methods**.
 
