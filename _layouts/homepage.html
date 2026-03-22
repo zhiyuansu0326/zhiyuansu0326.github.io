@@ -21,19 +21,9 @@
     <meta name="twitter:image" content="{{ site.avatar }}">
 
     <link rel="canonical" href="{{site.canonical}}/"/>
-    <link rel="apple-touch-icon" sizes="57x57" href="./assets/Illinois/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="./assets/Illinois/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="./assets/Illinois/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="./assets/Illinois/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="./assets/Illinois/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="./assets/Illinois/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="./assets/Illinois/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="./assets/Illinois/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/Illinois/apple-icon-180x180.png">
-    <link rel="icon" href="./assets/Illinois/favicon.ico">
-    <link rel="manifest" href="./assets/Illinois/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon.png">
+    <link rel="icon" href="./assets/img/favicon.ico">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="./assets/Illinois/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -48,6 +38,9 @@
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <style>
+      .homepage section a { color: #AF6E4D; }
+      .homepage section a:hover { color: #874831; }
+      .homepage section h2 { color: #AE0B2A; }
       #newsmore {
         max-height: 0;
         overflow: hidden;
@@ -81,7 +74,7 @@
   
 
   </head>
-  <body>
+  <body class="homepage">
     
     <div class="topnav">
 
@@ -214,7 +207,7 @@
       {% if site.footnote %}
       <div style="font: 12px/1.2 Crimson Pro, serif">
         <br>
-        <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a>
+        Powered by Jekyll and <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a> theme.
       </div>
       {% endif %}
 

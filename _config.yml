@@ -1,15 +1,15 @@
 # Basic Information 
-title: Yaoyao Liu
-position: Assistant Professor
-affiliation: University of Illinois
-affiliation_link: https://www.illinois.edu/
-affiliation_logo: ./assets/img/illinois.svg
-email: lyy (at) illinois.edu
+title: Zhiyuan (Julian) Su
+position: Senior Undergraduate
+affiliation: Renmin University of China
+affiliation_link: https://www.ruc.edu.cn/
+affiliation_logo: ./assets/img/ruc.svg
+email: ayinor0713 (at) ruc.edu.cn
 
 # Search Engine Optimization (SEO)
-keywords: yaoyao liu, liu yaoyao, yaoyaoliu, liuyaoyao
-canonical: https://yaoyaoliu.web.illinois.edu
-description: Yaoyao Liu is an assistant professor at the University of Illinois Urbana-Champaign. His research lies in meta-learning, incremental learning, and image generation.
+keywords: zhiyuan su, su zhiyuan, zhiyuansu, suzhiyuan
+# canonical: https://yaoyaoliu.web.illinois.edu
+description: Zhiyuan Su is an senior undergraduate at Renmin University of China. His research lies in reinforcement learning, sequential decision-making, online learning, and generative AI.
 
 # The option is used to enable the Illinois template.
 enable_hopkins_logo: true
@@ -19,22 +19,22 @@ enable_last_update: false
 
 # Links
 link_type: icon #text/icon
-google_scholar: https://scholar.google.com/citations?user=Qi2PSmEAAAAJ
-github_link: https://github.com/yaoyao-liu/
-linkedin: https://www.linkedin.com/in/liuyaoyao/
-twitter: https://twitter.com/YaoyaoLiu1/
+google_scholar: https://scholar.google.com/citations?user=5T0sVTgAAAAJ&hl/
+github_link: https://github.com/zhiyuansu0326/
+linkedin: https://www.linkedin.com/in/zhiyuan-su-101322379/
+twitter: https://x.com/zhiyuansu040326?s=21/
 
 # Images 
-avatar: https://img.yliu.me/yaoyaoliu.jpg
+avatar: ./assets/img/zhiyuansu.jpg
 
 # Footnotes
-footnote: Feel free to use my website's source code.
+footnote: Minimal Light
 footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 
 # Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+# clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
 
 # The following files will be removed from the generated website.
 exclude:
