@@ -20,11 +20,11 @@ I am actively looking for Ph.D. and M.S. students with strong backgrounds in com
 
 {% include_relative _includes/news.md %}
 
-{% include_relative _includes/services.md %}
-
 {% include_relative _includes/education.md %}
 
 {% include_relative _includes/experience.md %}
+
+{% include_relative _includes/services.md %}
 
 {% comment %}
 {% include_relative _includes/personal.md %}
