@@ -10,7 +10,8 @@
         <div class="cv-item-school"><a href="https://www.duke.edu/">Duke University</a></div>
         <div class="cv-item-time">Starting 2026</div>
       </div>
-      <div class="cv-item-meta"><a href="https://ece.duke.edu/">Pierre R. Lamond Department of Electrical and Computer Engineering</a></div>
+      <div class="cv-item-meta"><a href="https://pratt.duke.edu/">Pratt School of Engineering</a></div>
+      <div class="cv-item-meta"><a href="https://www.ece.duke.edu/">Pierre R. Lamond Department of Electrical and Computer Engineering</a></div>
       <div class="cv-item-meta cv-item-degree">Ph.D. in Electrical and Computer Engineering</div>
     </div>
   </div>
