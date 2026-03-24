@@ -7,7 +7,7 @@
     </div>
     <div class="cv-item-main">
       <div class="cv-item-header">
-        <div class="cv-item-school"><a href="https://www.duke.edu/">Duke University</a> (Durham, NC)</div>
+        <div class="cv-item-school"><a href="https://www.duke.edu/">Duke University</a></div>
         <div class="cv-item-time">Starting 2026</div>
       </div>
       <div class="cv-item-meta"><a href="https://ece.duke.edu/">Pierre R. Lamond Department of Electrical and Computer Engineering</a></div>
