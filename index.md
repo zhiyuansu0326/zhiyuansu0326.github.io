@@ -10,7 +10,7 @@ Hi there! I am a senior undergraduate majoring in Artificial Intelligence at [Re
 
 My research focuses on **reinforcement learning**, **sequential decision-making**, **online learning**, and **generative AI**, with an emphasis on developing **theoretically grounded and practically scalable methods**.
 
-❗️ I will be joining [Duke University](https://www.duke.edu/) in Fall 2026 as a Ph.D. student in Electrical and Computer Engineering, under the joint supervision of [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home) and [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/) (NAE Member, IEEE Fellow). Feel free to reach out!
+❗️ I will be joining [Duke University](https://www.duke.edu/) in Fall 2026 as a Ph.D. student in Electrical and Computer Engineering, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/) (NAE Member, IEEE Fellow) and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home). Feel free to reach out!
 
 
 <!-- <div style="border: 1px solid #ccc; padding: 11px; background-color: #f9f9f9; color: #333; border-radius: 5px;">
