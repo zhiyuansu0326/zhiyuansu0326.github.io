@@ -1,6 +1,7 @@
 <h2 style="margin: 60px 0px 10px;">News</h2>
 
 <ul>
+<li><strong>[May. 2026]</strong> CRAMER is accepted by ICML 2026. Many thanks to Prof. Ga Wu, Naihe and Luther!</li>
 <li><strong>[Mar. 2026]</strong> Accepted into Duke ECE! Looking forward to my Ph.D. life at Duke : )</li>
 <li><strong>[Nov. 2025]</strong> IMPACTNet is accepted by KDD 2026 Research Track. Congratulations to Yuhan!</li>
 <li><strong>[Jul. 2025]</strong> Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!</li>

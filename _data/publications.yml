@@ -1,4 +1,9 @@
 main:
+  - title: "CRAMER: Control via Request-Aware Masking for Editing Recommenders"
+    authors: <strong>Zhiyuan Su</strong>, Naihe Feng, Luther Qin, Ga Wu
+    conference_short: ICML
+    conference: International Conference on Machine Learning (ICML), 2026.
+    # pdf: https://arxiv.org/pdf/2603.12621
 
   - title: "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents"
     authors: Aojie Yuan, <strong>Zhiyuan Su</strong>, Yue Zhao
@@ -10,7 +15,7 @@ main:
     authors: Yuhan Wang, Yuchao Ma, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
     conference_short: KDD
     conference: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026.
-    # pdf: https://yaoyaoliu.web.illinois.edu/papers/ImageNet3D_Towards_General_Purpose_Object_Level_3D_Understanding.pdf
+    pdf: https://dl.acm.org/doi/epdf/10.1145/3770854.3780244
 
   - title: "Revisiting Clustering of Neural Bandits: Selective Reinitialization for Mitigating Loss of Plasticity"
     authors: <strong>Zhiyuan Su</strong>, Sunhao Dai, Xiao Zhang
