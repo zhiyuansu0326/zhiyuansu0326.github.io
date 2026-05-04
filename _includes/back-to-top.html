@@ -1,0 +1,50 @@
+<span id="back-to-top-sentinel" class="back-to-top-sentinel" aria-hidden="true"></span>
+<button type="button" id="back-to-top" aria-label="Back to top">
+  <span aria-hidden="true">&uarr;</span>
+</button>
+<script>
+  (function() {
+    var button = document.getElementById('back-to-top');
+    if (!button) return;
+    var sentinel = document.getElementById('back-to-top-sentinel');
+    var scrollingElement = document.scrollingElement || document.documentElement || document.body;
+
+    function getScrollTop() {
+      return Math.max(
+        window.pageYOffset || 0,
+        document.documentElement.scrollTop || 0,
+        document.body.scrollTop || 0,
+        scrollingElement ? scrollingElement.scrollTop || 0 : 0
+      );
+    }
+
+    function setBackToTopVisible(active) {
+      button.classList.toggle('is-visible', active);
+    }
+
+    function syncBackToTop() {
+      setBackToTopVisible(getScrollTop() > 260);
+    }
+
+    button.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.setTimeout(syncBackToTop, 350);
+    });
+
+    syncBackToTop();
+    window.addEventListener('scroll', syncBackToTop, { passive: true });
+    document.addEventListener('scroll', syncBackToTop, { passive: true });
+    if (scrollingElement) {
+      scrollingElement.addEventListener('scroll', syncBackToTop, { passive: true });
+    }
+    if (sentinel && 'IntersectionObserver' in window) {
+      new IntersectionObserver(function(entries) {
+        var entry = entries[0];
+        setBackToTopVisible(!entry.isIntersecting);
+      }).observe(sentinel);
+    }
+    window.addEventListener('load', syncBackToTop);
+    window.setTimeout(syncBackToTop, 250);
+    window.setInterval(syncBackToTop, 750);
+  })();
+</script>

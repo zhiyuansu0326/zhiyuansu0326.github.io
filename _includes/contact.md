@@ -1,4 +1,4 @@
-<h2 style="margin: 60px 0px 10px;">Contact</h2>
+<h2>Contact</h2>
 
 No. 59 Zhongguancun Street, Haidian District
 <br />

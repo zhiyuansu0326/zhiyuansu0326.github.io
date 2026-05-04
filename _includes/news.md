@@ -1,10 +1,10 @@
-<h2 style="margin: 60px 0px 10px;">News</h2>
+<h2>News</h2>
 
-<ul>
-<li><strong>[May. 2026]</strong> CRAMER is accepted by ICML 2026. Many thanks to Prof. Ga Wu, Naihe and Luther!</li>
-<li><strong>[Mar. 2026]</strong> Accepted into Duke ECE! Looking forward to my Ph.D. life at Duke : )</li>
-<li><strong>[Nov. 2025]</strong> IMPACTNet is accepted by KDD 2026 Research Track. Congratulations to Yuhan!</li>
-<li><strong>[Jul. 2025]</strong> Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!</li>
-<li><strong>[May 2025]</strong> SeRe is accepted by KDD 2025 Research Track.</li>
-<li><strong>[Feb. 2025]</strong> TICNet is accepted by TheWebConf 2025.</li>
+<ul class="timeline-list news-list">
+<li><time>May. 2026</time><span>CRAMER is accepted by ICML 2026. Many thanks to Prof. Ga Wu, Naihe and Luther!</span></li>
+<li><time>Mar. 2026</time><span>Accepted into Duke ECE! Looking forward to my Ph.D. life at Duke : )</span></li>
+<li><time>Nov. 2025</time><span>IMPACTNet is accepted by KDD 2026 Research Track. Congratulations to Yuhan!</span></li>
+<li><time>Jul. 2025</time><span>Selected to receive a SIGKDD-supported KDD 2025 Student Travel Award!</span></li>
+<li><time>May 2025</time><span>SeRe is accepted by KDD 2025 Research Track.</span></li>
+<li><time>Feb. 2025</time><span>TICNet is accepted by TheWebConf 2025.</span></li>
 </ul>

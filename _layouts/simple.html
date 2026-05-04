@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <title>{{ page.title }} | {{ site.title }} | {{ site.affiliation }}</title>
+    <title>{{ page.title | escape }} | {{ site.title | escape }} | {{ site.affiliation | escape }}</title>
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <meta name="description" content="{{ site.title }}">
-    <meta name="keywords" content="{{ site.keywords }}">
+    <meta name="description" content="{{ site.title | escape }}">
+    <meta name="keywords" content="{{ site.keywords | escape }}">
 
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ site.title }} | {{ site.affiliation }}">
+    <meta property="og:title" content="{{ site.title | escape }} | {{ site.affiliation | escape }}">
     <meta property="og:url" content="{{ site.canonical }}{{ page.permalink }}">
-    <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
-    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:site_name" content="{{ site.title | escape }} | {{ site.affiliation | escape }}">
+    <meta property="og:description" content="{{ site.description | escape }}">
     <meta property="og:locale" content="default">
     <meta property="og:image" content="{{ site.avatar }}">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{{ site.title }} | {{ site.affiliation }}">
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:title" content="{{ site.title | escape }} | {{ site.affiliation | escape }}">
+    <meta name="twitter:description" content="{{ site.description | escape }}">
     <meta name="twitter:image" content="{{ site.avatar }}">
 
     <link rel="canonical" href="{{ site.canonical }}{{ page.permalink }}"/>
@@ -31,8 +31,6 @@
     <link rel="stylesheet" href="../assets/css/pub.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
 
-    <link rel="stylesheet" href="https://cdn.brand.illinois.edu/illinois.css">
-    
     <script src="../assets/js/github-stars.js"></script>
     <script type="text/javascript" src="../assets/js/jquery.js"></script>
     <script src="../assets/js/favicon-switcher.js" type="application/javascript"></script>
@@ -63,7 +61,12 @@
     
     <div class="topnav">
 
-      <a href="{{ site.affiliation_link }}"><img width="120" src="../{{ site.affiliation_logo }}"></a>
+      {% assign nav_logo = site.nav_logo | default: site.affiliation_logo %}
+      {% assign nav_logo_link = site.nav_logo_link | default: site.affiliation_link %}
+      {% assign nav_logo_alt = site.nav_logo_alt | default: site.affiliation %}
+      <a class="brand-link" href="{{ nav_logo_link }}" aria-label="{{ nav_logo_alt }}">
+        <img width="120" src="../{{ nav_logo }}" alt="{{ nav_logo_alt }} logo">
+      </a>
 
       <div id="myLinks">
       {% include navigation.md %}
@@ -79,24 +82,7 @@
     </div>
     
 
-    <script src="../assets/js/vanilla-back-to-top.min.js"></script>
-    <script>addBackToTop({
-        backgroundColor: '#fff',
-        innerHTML: 'Back to Top',
-        textColor: '#333'
-      })
-    </script>
-    <style>
-        #back-to-top {
-          border: 1px solid #ccc;
-          border-radius: 0;
-          font-size: 15px;
-          width: 100px;
-          text-align: center;
-          line-height: 30px;
-          height: 30px;
-        }
-    </style>
+    {% include back-to-top.html asset_prefix=".." %}
     
     <div class="wrapper">
       <section style="float: none; width: auto;">

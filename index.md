@@ -2,15 +2,15 @@
 layout: homepage
 ---
 
-<h1 id="about-me"></h1>
-
-<h2 style="margin: 80px 0px 10px;"></h2>
-
+<div class="intro-copy" markdown="1">
 Hi there! I am a senior undergraduate majoring in Artificial Intelligence at [Renmin University of China (RUC)](https://www.ruc.edu.cn/) , working with [Prof. Qi Qi](https://gsai.ruc.edu.cn/qiqi) and [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/Xiao_Zhang/). I was also an exchange student at [University of California, Davis](https://www.ucdavis.edu/) and a visiting researcher at [Dalhousie University](https://www.dal.ca/) , working closely with [Prof. Ga Wu](https://web.cs.dal.ca/~gaw/).
 
 My research focuses on **reinforcement learning**, **sequential decision-making**, **online learning**, and **generative AI**, with an emphasis on developing **theoretically grounded and practically scalable methods**.
+</div>
 
-❗️ I will be joining [Duke University](https://www.duke.edu/) in Fall 2026 as a Ph.D. student in Electrical and Computer Engineering, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/) (NAE Member, IEEE Fellow) and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home). Feel free to reach out!
+<div class="editorial-notice" markdown="1">
+I will be joining [Duke University](https://www.duke.edu/) in Fall 2026 as a Ph.D. student in Electrical and Computer Engineering, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/) (NAE Member, IEEE Fellow) and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home). Feel free to reach out!
+</div>
 
 
 <!-- <div style="border: 1px solid #ccc; padding: 11px; background-color: #f9f9f9; color: #333; border-radius: 5px;">

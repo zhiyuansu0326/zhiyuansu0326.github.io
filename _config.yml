@@ -4,15 +4,15 @@ position: Senior Undergraduate
 affiliation: Renmin University of China
 affiliation_link: https://www.ruc.edu.cn/
 affiliation_logo: ./assets/img/ruc.svg
+nav_logo: ./assets/img/duke.svg
+nav_logo_link: https://www.duke.edu/
+nav_logo_alt: Duke University
 email: ayinor0713 (at) ruc.edu.cn
 
 # Search Engine Optimization (SEO)
 keywords: zhiyuan su, su zhiyuan, zhiyuansu, suzhiyuan, julian su, su julian, zhiyuan su renmin university, zhiyuan su ruc, zhiyuan julian su
-# canonical: https://yaoyaoliu.web.illinois.edu
+canonical: https://zhiyuansu0326.github.io
 description: Zhiyuan Su is an senior undergraduate at Renmin University of China. His research lies in reinforcement learning, sequential decision-making, online learning, and generative AI.
-
-# The option is used to enable the Illinois template.
-enable_hopkins_logo: true
 
 # The option is used to show the last update time.
 enable_last_update: false
@@ -26,10 +26,6 @@ twitter: https://x.com/zhiyuansu040326?s=21/
 
 # Images 
 avatar: ./assets/img/zhiyuansu.jpg
-
-# Footnotes
-footnote: Minimal Light
-footnote_link: https://github.com/yaoyao-liu/minimal-light
 
 # Analytics
 # Please remove the following lines about analytics services if you fork my project. 

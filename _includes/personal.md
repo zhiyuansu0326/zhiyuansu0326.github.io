@@ -1,4 +1,4 @@
-<h2 style="margin: 60px 0px 10px;">Personal</h2>
+<h2>Personal</h2>
 
 <ul>
 <li>I love <strong>music, literature, travel and badminton</strong>. I am a <strong>campus singer</strong> at RUC and have been invited to participate in various concerts and music festivals.</li>

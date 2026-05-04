@@ -4,12 +4,11 @@ main:
   #   url: teaching/
   #   right: true 
 
-  - title: "Awards"
-    url: awards/
-    right: true 
+  - title: "Home"
+    url: ./
 
   - title: "Publications"
     url: publications/
 
-  - title: "Home"
-    url: ./
+  - title: "Awards"
+    url: awards/

@@ -1,4 +1,4 @@
-<h2 style="margin: 60px 0px 10px;">Experience</h2>
+<h2>Experience</h2>
 
 <div class="cv-section">
   <div class="cv-item">
