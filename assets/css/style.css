@@ -461,7 +461,7 @@ section > p {
 .cv-section {
     display: grid;
     gap: 0;
-    margin: 0 0 2.4rem;
+    margin: -0.575rem 0 2.4rem;
 }
 
 .cv-item {
