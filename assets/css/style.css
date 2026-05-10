@@ -750,6 +750,11 @@ body.inner-page #back-to-top.is-visible:hover,
         margin-left: 0;
     }
 
+    .news-list li:not(:first-child) {
+        padding-right: 0.85rem;
+        padding-left: 0.85rem;
+    }
+
     .cv-item {
         grid-template-columns: 64px minmax(0, 1fr);
         gap: 0.95rem;
