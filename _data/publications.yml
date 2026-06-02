@@ -1,6 +1,6 @@
 main:
   - title: "CRAMER: Control via Request-Aware Masking for Editing Recommenders"
-    authors: <strong>Zhiyuan Su</strong>, Naihe Feng, Luther Qin, Ga Wu
+    authors: <strong>Zhiyuan Julian Su</strong>, Naihe Feng, Zhen Luther Qin, Ga Wu
     conference_short: ICML
     conference: International Conference on Machine Learning (ICML), 2026.
     # pdf: https://arxiv.org/pdf/2603.12621
