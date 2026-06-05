@@ -1,15 +1,24 @@
 main:
+
+  - title: "Hidden Error Awareness in Chain-of-Thought Reasoning: The Signal Is Diagnostic, Not Causal"
+    category: preprint
+    authors: Aojie Yuan, <strong>Zhiyuan Julian Su</strong>, Haiyue Zhang, Yi Nian, Yue Zhao
+    conference_short: arXiv
+    conference: arXiv:2605.09502, 2026.
+    pdf: https://arxiv.org/pdf/2605.09502
+
+  - title: "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents"
+    category: preprint
+    authors: Aojie Yuan, <strong>Zhiyuan Su</strong>, Yue Zhao
+    conference_short: arXiv
+    conference: arXiv:2603.12621, 2026.
+    pdf: https://arxiv.org/pdf/2603.12621
+
   - title: "CRAMER: Control via Request-Aware Masking for Editing Recommenders"
     authors: <strong>Zhiyuan Julian Su</strong>, Naihe Feng, Zhen Luther Qin, Ga Wu
     conference_short: ICML
     conference: International Conference on Machine Learning (ICML), 2026.
     # pdf: https://arxiv.org/pdf/2603.12621
-
-  - title: "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents"
-    authors: Aojie Yuan, <strong>Zhiyuan Su</strong>, Yue Zhao
-    conference_short: arXiv
-    conference: arXiv:2603.12621, 2026.
-    pdf: https://arxiv.org/pdf/2603.12621
     
   - title: "IMPACTNet: Unifying Auto-bidding in End-to-End Merged Auctions"
     authors: Yuhan Wang, Yuchao Ma, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
