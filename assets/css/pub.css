@@ -43,31 +43,6 @@
     text-align: right;
 }
 
-.publication-section + .publication-section {
-    margin-top: 1.15rem;
-}
-
-.publication-section-title {
-    display: flex;
-    align-items: center;
-    gap: 0.72rem;
-    margin: 0 0 0.82rem;
-    color: var(--brand);
-    font-family: var(--sans);
-    font-size: 0.86rem;
-    font-weight: 800;
-    letter-spacing: 0.02em;
-    line-height: 1.25;
-    text-transform: uppercase;
-}
-
-.publication-section-title::after {
-    content: "";
-    flex: 1 1 auto;
-    height: 1px;
-    background: linear-gradient(90deg, rgba(var(--brand-rgb), 0.28), rgba(var(--gold-rgb), 0.18), transparent);
-}
-
 .publications ol.bibliography {
     display: grid;
     gap: 1rem;
