@@ -18,6 +18,9 @@
       </div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}</em>
+        {% if link.conference_short == "arXiv" %}
+        <span class="preprint-mark">Preprint</span>
+        {% endif %}
       </div>
     {% if link.code or link.page or link.data or link.bibtex or link.notes or link.others %}
     <div class="links">
