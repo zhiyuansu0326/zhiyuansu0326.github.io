@@ -537,8 +537,9 @@ section > p {
 
 .cv-inline-logo-link {
     display: inline-flex;
-    align-items: baseline;
+    align-items: center;
     line-height: 1;
+    vertical-align: middle;
 }
 
 .cv-inline-logo {
@@ -546,7 +547,7 @@ section > p {
     width: auto;
     height: 1em;
     margin: 0 0.12em;
-    vertical-align: -0.12em;
+    vertical-align: middle;
 }
 
 .cv-item-time {
