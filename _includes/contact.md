@@ -6,4 +6,4 @@ Beijing, China 100872
 <br />
 Phone: <a href="tel:+8617762514326">+86 17762514326</a>
 <!-- <br />
-Office: <a href="https://maps.app.goo.gl/xvHRWG27wSZXQ1Cv7">5125</a> -->
+Office: <a href="https://maps.app.goo.gl/xvHRWG27wSZXQ1Cv7" target="_blank" rel="noopener">5125</a> -->

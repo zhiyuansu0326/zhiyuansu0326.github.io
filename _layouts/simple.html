@@ -64,7 +64,7 @@
       {% assign nav_logo = site.nav_logo | default: site.affiliation_logo %}
       {% assign nav_logo_link = site.nav_logo_link | default: site.affiliation_link %}
       {% assign nav_logo_alt = site.nav_logo_alt | default: site.affiliation %}
-      <a class="brand-link" href="{{ nav_logo_link }}" aria-label="{{ nav_logo_alt }}">
+      <a class="brand-link" href="{{ nav_logo_link }}" aria-label="{{ nav_logo_alt }}" target="_blank" rel="noopener">
         <img width="120" src="../{{ nav_logo }}" alt="{{ nav_logo_alt }} logo">
       </a>
 
@@ -111,10 +111,10 @@
         <p>
         <small>
         {% if site.imprint %}
-        <a href="{{ site.imprint }}" rel="noopener"><autocolor>Imprint / Impressum</autocolor></a><br>
+        <a href="{{ site.imprint }}" target="_blank" rel="noopener"><autocolor>Imprint / Impressum</autocolor></a><br>
         {% endif %}
         {% if site.data_protection %}
-        <a href="{{ site.data_protection }}" rel="noopener"><autocolor>Data Protection / Datenschutzhinweis</autocolor></a>
+        <a href="{{ site.data_protection }}" target="_blank" rel="noopener"><autocolor>Data Protection / Datenschutzhinweis</autocolor></a>
         {% endif %}
         </small>
         </p>

@@ -76,7 +76,7 @@
       {% assign nav_logo = site.nav_logo | default: site.affiliation_logo %}
       {% assign nav_logo_link = site.nav_logo_link | default: site.affiliation_link %}
       {% assign nav_logo_alt = site.nav_logo_alt | default: site.affiliation %}
-      <a class="brand-link" href="{{ nav_logo_link }}" aria-label="{{ nav_logo_alt }}">
+      <a class="brand-link" href="{{ nav_logo_link }}" aria-label="{{ nav_logo_alt }}" target="_blank" rel="noopener">
         <img width="120" src="{{ nav_logo }}" alt="{{ nav_logo_alt }} logo">
       </a>
 
@@ -109,7 +109,7 @@
         <br>
         {% endif %}
         {% if site.affiliation %}
-        <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
+        <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
         {% if site.email %}
@@ -120,46 +120,46 @@
         <br>
 
         {% if site.link_type == 'text' %}
-        [<a href="{{ site.google_scholar }}">Google Scholar</a>]
+        [<a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>]
         <br>
-        [<a href="{{ site.cv_link }}">Curriculum Vitae</a>]
+        [<a href="{{ site.cv_link }}" target="_blank" rel="noopener">Curriculum Vitae</a>]
         <br>
         {% endif %}
 
         {% if site.link_type == 'icon' %}
         <div class="social-icons">
         {% if site.google_scholar %}
-        <a href="{{ site.google_scholar }}" aria-label="Google Scholar" rel="noopener">
+        <a href="{{ site.google_scholar }}" aria-label="Google Scholar" target="_blank" rel="noopener">
           <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
         </a>  
         {% endif %}
 
         {% if site.cv_link %}
-        <a href="{{ site.cv_link }}" aria-label="Curriculum Vitae" rel="noopener">
+        <a href="{{ site.cv_link }}" aria-label="Curriculum Vitae" target="_blank" rel="noopener">
           <i class="ai ai-cv" style="font-size:1.3rem;"></i>
         </a>
         {% endif %}
 
         {% if site.github_link %}
-        <a href="{{ site.github_link }}" aria-label="GitHub" rel="noopener">
+        <a href="{{ site.github_link }}" aria-label="GitHub" target="_blank" rel="noopener">
           <i class="fab fa-github"></i>
         </a>
         {% endif %}
 
         {% if site.linkedin %}
-        <a href="{{ site.linkedin }}" aria-label="LinkedIn" rel="noopener">
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn" target="_blank" rel="noopener">
           <i class="fab fa-linkedin"></i>
         </a>
         {% endif %}
 
         {% if site.twitter %}
-        <a href="{{ site.twitter }}" aria-label="X" rel="noopener">
+        <a href="{{ site.twitter }}" aria-label="X" target="_blank" rel="noopener">
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
 
         {% if site.bluesky %}
-        <a href="{{ site.bluesky }}" aria-label="Bluesky" rel="noopener">
+        <a href="{{ site.bluesky }}" aria-label="Bluesky" target="_blank" rel="noopener">
           <i class="fab fa-bluesky"></i>
         </a>
         {% endif %}
@@ -189,7 +189,7 @@
       {% if site.footnote %}
       <div style="font-family: inherit; font-size: 12px; line-height: 1.2;">
         <br>
-        Powered by Jekyll and <a href="{{ site.footnote_link }}" rel="noopener">{{ site.footnote }}</a> theme.
+        Powered by Jekyll and <a href="{{ site.footnote_link }}" target="_blank" rel="noopener">{{ site.footnote }}</a> theme.
       </div>
       {% endif %}
 
@@ -206,10 +206,10 @@
         <p>
         <small>
         {% if site.imprint %}
-        <a href="{{ site.imprint }}" rel="noopener"><autocolor>Imprint / Impressum</autocolor></a><br>
+        <a href="{{ site.imprint }}" target="_blank" rel="noopener"><autocolor>Imprint / Impressum</autocolor></a><br>
         {% endif %}
         {% if site.data_protection %}
-        <a href="{{ site.data_protection }}" rel="noopener"><autocolor>Data Protection / Datenschutzhinweis</autocolor></a>
+        <a href="{{ site.data_protection }}" target="_blank" rel="noopener"><autocolor>Data Protection / Datenschutzhinweis</autocolor></a>
         {% endif %}
         </small>
         </p>
