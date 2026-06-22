@@ -531,6 +531,24 @@ section > p {
     color: var(--brand);
 }
 
+.cv-inline-program {
+    font-weight: 650;
+}
+
+.cv-inline-logo-link {
+    display: inline-flex;
+    align-items: baseline;
+    line-height: 1;
+}
+
+.cv-inline-logo {
+    display: inline-block;
+    width: auto;
+    height: 1em;
+    margin: 0 0.12em;
+    vertical-align: -0.12em;
+}
+
 .cv-item-time {
     flex: 0 0 auto;
     color: var(--muted-2);
