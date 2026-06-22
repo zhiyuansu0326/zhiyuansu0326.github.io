@@ -532,6 +532,8 @@ section > p {
 }
 
 .cv-inline-program {
+    --mitacs-logo-size: 0.8em;
+    --mitacs-logo-y: -0.10em;
     font-weight: 650;
 }
 
@@ -539,13 +541,14 @@ section > p {
     display: inline-flex;
     align-items: center;
     line-height: 1;
+    transform: translateY(var(--mitacs-logo-y));
     vertical-align: middle;
 }
 
 .cv-inline-logo {
-    display: inline-block;
+    display: block;
     width: auto;
-    height: 1em;
+    height: var(--mitacs-logo-size);
     margin: 0 0.12em;
     vertical-align: middle;
 }
