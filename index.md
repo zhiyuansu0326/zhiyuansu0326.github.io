@@ -3,7 +3,7 @@ layout: homepage
 ---
 
 <div class="intro-copy" markdown="1">
-Hi there! I am a senior undergraduate majoring in Artificial Intelligence at [Renmin University of China (RUC)](https://www.ruc.edu.cn/){:target="_blank" rel="noopener"} , working with [Prof. Qi Qi](http://ai.ruc.edu.cn/english/FACULTYn/QiQi/index.htm){:target="_blank" rel="noopener"} and [Prof. Xiao Zhang](http://ai.ruc.edu.cn/english/FACULTYn/XiaoZHANG/index.htm){:target="_blank" rel="noopener"}. I was also an exchange student at [University of California, Davis](https://www.ucdavis.edu/){:target="_blank" rel="noopener"} and a visiting researcher at [Dalhousie University](https://www.dal.ca/){:target="_blank" rel="noopener"} , working closely with [Prof. Ga Wu](https://web.cs.dal.ca/~gaw/){:target="_blank" rel="noopener"}.
+Hi there! I am a senior undergraduate majoring in Artificial Intelligence at [Renmin University of China (RUC)](https://www.ruc.edu.cn/){:target="_blank" rel="noopener"} , working with [Prof. Xiao Zhang](http://ai.ruc.edu.cn/english/FACULTYn/XiaoZHANG/index.htm){:target="_blank" rel="noopener"} and [Prof. Qi Qi](http://ai.ruc.edu.cn/english/FACULTYn/QiQi/index.htm){:target="_blank" rel="noopener"}. I was also an exchange student at [University of California, Davis](https://www.ucdavis.edu/){:target="_blank" rel="noopener"} and a visiting researcher at [Dalhousie University](https://www.dal.ca/){:target="_blank" rel="noopener"} , working closely with [Prof. Ga Wu](https://web.cs.dal.ca/~gaw/){:target="_blank" rel="noopener"}.
 
 My research focuses on **reinforcement learning**, **sequential decision-making**, **online learning**, and **generative AI**, with an emphasis on developing **theoretically grounded and practically scalable methods**.
 </div>
