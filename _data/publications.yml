@@ -30,6 +30,12 @@ main:
     conference: arXiv:2605.09502, 2026.
     pdf: https://arxiv.org/pdf/2605.09502
 
+  - title: "Beyond Language: Format-Agnostic Reasoning Subspaces in Large Language Models"
+    authors: Aojie Yuan, <strong>Zhiyuan Su</strong>
+    conference_short: arXiv
+    conference: arXiv:2605.09496, 2026.
+    pdf: https://arxiv.org/pdf/2605.09496
+
   - title: "AEGIS: No Tool Call Left Unchecked -- A Pre-Execution Firewall and Audit Layer for AI Agents"
     authors: Aojie Yuan, <strong>Zhiyuan Su</strong>, Yue Zhao
     conference_short: arXiv

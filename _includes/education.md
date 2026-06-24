@@ -40,7 +40,7 @@
         <div class="cv-item-time">2025</div>
       </div>
       <!-- <div class="cv-item-meta"><a href="https://cs.ucdavis.edu/" target="_blank" rel="noopener">Department of Computer Science</a></div> -->
-      <div class="cv-item-meta cv-item-degree">Exchange Student, Mathematics & Statistics</div>
+      <div class="cv-item-meta cv-item-degree">Exchange, Mathematics & Statistics</div>
     </div>
   </div>
 </div>
