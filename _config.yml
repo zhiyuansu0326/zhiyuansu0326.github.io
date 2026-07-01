@@ -1,19 +1,19 @@
 # Basic Information 
 title: Zhiyuan Julian Su
-position: Senior Undergraduate
-affiliation: Renmin University of China
-affiliation_link: https://www.ruc.edu.cn/
-affiliation_logo: ./assets/img/ruc.svg
+position: Incoming Ph.D. Student
+affiliation: Duke University
+affiliation_link: https://www.duke.edu/
+affiliation_logo: ./assets/img/duke.svg
 nav_logo: ./assets/img/duke.svg
 nav_logo_link: https://www.duke.edu/
 nav_logo_alt: Duke University
-email: ayinor0713 (at) ruc.edu.cn
+email: zhiyuan.j.su@duke.edu
 
 # Search Engine Optimization (SEO)
-keywords: zhiyuan su, su zhiyuan, zhiyuansu, suzhiyuan, julian su, su julian, zhiyuan su renmin university, zhiyuan su ruc, zhiyuan julian su
+keywords: zhiyuan su, su zhiyuan, zhiyuansu, suzhiyuan, julian su, su julian, zhiyuan su duke university, zhiyuan su duke, zhiyuan julian su
 canonical: https://zhiyuansu0326.github.io
-description: Zhiyuan Su is an senior undergraduate at Renmin University of China. His research lies in reinforcement learning, sequential decision-making, online learning, and generative AI.
-
+description: Zhiyuan Su is an incoming Ph.D. student at Duke University. His research lies in reinforcement learning, sequential decision-making, online learning, and generative AI.
+  
 # The option is used to show the last update time.
 enable_last_update: false
 
