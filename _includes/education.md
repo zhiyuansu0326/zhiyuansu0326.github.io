@@ -8,7 +8,7 @@
     <div class="cv-item-main">
       <div class="cv-item-header">
         <div class="cv-item-school"><a href="https://www.duke.edu/" target="_blank" rel="noopener">Duke University</a></div>
-        <div class="cv-item-time">Starting 2026</div>
+        <div class="cv-item-time">2026 - Now</div>
       </div>
       <div class="cv-item-meta"><a href="https://pratt.duke.edu/" target="_blank" rel="noopener">Pratt School of Engineering</a></div>
       <div class="cv-item-meta"><a href="https://www.ece.duke.edu/" target="_blank" rel="noopener">Pierre R. Lamond Department of Electrical and Computer Engineering</a></div>
@@ -23,7 +23,7 @@
     <div class="cv-item-main">
       <div class="cv-item-header">
         <div class="cv-item-school"><a href="https://www.ruc.edu.cn/" target="_blank" rel="noopener">Renmin University of China</a></div>
-        <div class="cv-item-time">2022 - 2026 (Expected)</div>
+        <div class="cv-item-time">2022 - 2026</div>
       </div>
       <div class="cv-item-meta"><a href="http://ai.ruc.edu.cn/" target="_blank" rel="noopener">Gaoling School of Artificial Intelligence</a></div>
       <div class="cv-item-meta cv-item-degree">B.Eng. in Artificial Intelligence</div>
