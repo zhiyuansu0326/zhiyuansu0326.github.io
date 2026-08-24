@@ -1,9 +1,9 @@
 <h2>Contact</h2>
 
-No. 59 Zhongguancun Street, Haidian District
+Wilkinson Engineering Building 432
 <br />
-Beijing, China 100872
+Durham, NC 27705
 <br />
-Phone: <a href="tel:+8617762514326">+86 17762514326</a>
+Phone: <a href="tel:+19843173082">+1 9843173082</a>
 <!-- <br />
 Office: <a href="https://maps.app.goo.gl/xvHRWG27wSZXQ1Cv7" target="_blank" rel="noopener">5125</a> -->
