@@ -585,11 +585,7 @@ section > p {
     grid-template-columns: minmax(7rem, max-content) minmax(0, 1fr);
     align-items: center;
     gap: 1rem;
-    padding: 0.9rem 1rem;
-    border: 1px solid rgba(var(--brand-rgb), 0.12);
-    border-left: 3px solid rgba(var(--brand-rgb), 0.68);
-    border-radius: 8px;
-    background: transparent;
+    padding: 0;
 }
 
 .service-role {
@@ -606,21 +602,6 @@ section > p {
     flex-wrap: wrap;
     align-items: center;
     gap: 0.45rem;
-}
-
-.service-chip {
-    display: inline-flex;
-    align-items: center;
-    min-height: 1.8rem;
-    padding: 0.18rem 0.68rem;
-    border: 1px solid rgba(var(--accent-rgb), 0.17);
-    border-radius: 999px;
-    background: rgba(255, 255, 255, 0.66);
-    color: var(--ink);
-    font-family: var(--sans);
-    font-size: 0.78rem;
-    font-weight: 650;
-    line-height: 1.2;
 }
 
 .page-heading {
