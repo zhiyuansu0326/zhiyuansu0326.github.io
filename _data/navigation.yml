@@ -1,14 +1,9 @@
 main:
-
-  # - title: "Teaching"
-  #   url: teaching/
-  #   right: true 
-
   - title: "Home"
-    url: ./
+    url: /
 
   - title: "Publications"
-    url: publications/
+    url: /publications/
 
   - title: "Awards"
-    url: awards/
+    url: /awards/

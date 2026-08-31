@@ -25,19 +25,19 @@
     {% if link.code or link.page or link.data or link.bibtex or link.notes or link.others %}
     <div class="links">
       {% if link.code %}
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Code</a>
+      <a href="{{ link.code }}" class="btn" target="_blank" rel="noopener">Code</a>
       {% endif %}
       {% if link.page %}
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Project Page</a>
+      <a href="{{ link.page }}" class="btn" target="_blank" rel="noopener">Project Page</a>
       {% endif %}
       {% if link.data %}
-      <a href="{{ link.data }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">Dataset</a>
+      <a href="{{ link.data }}" class="btn" target="_blank" rel="noopener">Dataset</a>
       {% endif %}
       {% if link.bibtex %}
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener" style="font-size:12px;">BibTex</a>
+      <a href="{{ link.bibtex }}" class="btn" target="_blank" rel="noopener">BibTeX</a>
       {% endif %}
       {% if link.notes %}
-      <strong> <i style="color:#e74d3c; font-weight:600">{{ link.notes }}</i></strong>
+      <span class="publication-note">{{ link.notes }}</span>
       {% endif %}
       {% if link.others %}
       {{ link.others }}

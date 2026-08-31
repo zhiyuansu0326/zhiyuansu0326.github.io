@@ -1,10 +1,11 @@
 # Basic Information 
 title: Zhiyuan Julian Su
+lang: en-US
 position: Ph.D. Student
 affiliation: Duke University
 affiliation_link: https://www.duke.edu/
-affiliation_logo: ./assets/img/duke.svg
-nav_logo: ./assets/img/duke.svg
+affiliation_logo: /assets/img/duke.svg
+nav_logo: /assets/img/duke.svg
 nav_logo_link: https://www.duke.edu/
 nav_logo_alt: Duke University
 email: zhiyuan.j.su@duke.edu
@@ -12,10 +13,8 @@ email: zhiyuan.j.su@duke.edu
 # Search Engine Optimization (SEO)
 keywords: zhiyuan su, su zhiyuan, zhiyuansu, suzhiyuan, julian su, su julian, zhiyuan su duke university, zhiyuan su duke, zhiyuan julian su
 canonical: https://zhiyuansu0326.github.io
+url: https://zhiyuansu0326.github.io
 description: Zhiyuan Su is a Ph.D. student at Duke University. His research lies in reinforcement learning, sequential decision-making, online learning, and generative AI.
-
-# The option is used to show the last update time.
-enable_last_update: false
 
 # Links
 link_type: icon #text/icon
@@ -24,13 +23,8 @@ github_link: https://github.com/zhiyuansu0326/
 linkedin: https://www.linkedin.com/in/zhiyuan-j-su/
 twitter: https://x.com/zhiyuanjsu/
 
-# Images 
-avatar: ./assets/img/zhiyuansu.jpg
-
-# Analytics
-# Please remove the following lines about analytics services if you fork my project. 
-# Otherwise, the analytics information of your website will be recorded to my ClustrMaps accounts.
-# clustrmaps_id: HV0rAUdAxpfEQLOsVs0FcJTR2rKVI5sEQUZIDM-N_HY
+# Images
+avatar: /assets/img/zhiyuansu.jpg
 
 # The following files will be removed from the generated website.
 exclude:
@@ -40,3 +34,6 @@ exclude:
   - README.md
   - LICENSE
   - CNAME
+  - html_source_file
+  - assets/Illinois
+  - google_scholar_crawler

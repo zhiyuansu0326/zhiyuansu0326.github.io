@@ -4,7 +4,7 @@ main:
     authors: <strong>Zhiyuan Julian Su</strong>, Naihe Feng, Zhen Luther Qin, Ga Wu
     conference_short: ICML
     conference: International Conference on Machine Learning (ICML), 2026.
-    # pdf: https://arxiv.org/pdf/2603.12621
+    pdf: https://arxiv.org/pdf/2608.25370
     
   - title: "IMPACTNet: Unifying Auto-bidding in End-to-End Merged Auctions"
     authors: Yuhan Wang, Yuchao Ma, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
