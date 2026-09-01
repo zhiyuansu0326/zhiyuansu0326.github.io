@@ -378,10 +378,6 @@ th {
   min-width: 0;
 }
 
-.news-list li:first-child span {
-  font-weight: 500;
-}
-
 .cv-section {
   display: grid;
   margin: -0.25rem 0 1.55rem;
