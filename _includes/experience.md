@@ -11,7 +11,7 @@
         <div class="cv-item-time">2025</div>
       </div>
       <div class="cv-item-meta">at <a href="https://www.dal.ca/" target="_blank" rel="noopener">Dalhousie University</a></div>
-      <div class="cv-item-meta cv-item-degree">Visiting Researcher, Advisor(s): <a href="https://web.cs.dal.ca/~gaw/" target="_blank" rel="noopener">Prof. Ga Wu</a></div>
+      <div class="cv-item-meta cv-item-degree">Visiting Researcher, Advisor: <a href="https://web.cs.dal.ca/~gaw/" target="_blank" rel="noopener">Prof. Ga Wu</a></div>
     </div>
   </div>
 </div>
