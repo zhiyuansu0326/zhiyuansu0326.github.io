@@ -28,6 +28,43 @@
     });
   }
 
+  var qrModal = document.getElementById("qr-modal");
+  var qrImage = document.getElementById("qr-modal-image");
+  var qrTitle = document.getElementById("qr-modal-title");
+  var qrClose = document.querySelector(".qr-modal-close");
+  var qrTriggers = document.querySelectorAll(".social-qr-trigger");
+  var activeQrTrigger = null;
+
+  if (qrModal && qrImage && qrTitle && qrClose && qrTriggers.length) {
+    qrTriggers.forEach(function (trigger) {
+      trigger.addEventListener("click", function () {
+        var title = trigger.getAttribute("data-qr-title") || "QR Code";
+        qrImage.src = trigger.getAttribute("data-qr-src");
+        qrImage.alt = title + " QR code";
+        qrTitle.textContent = title;
+        activeQrTrigger = trigger;
+        document.body.classList.add("qr-modal-open");
+        qrModal.showModal();
+      });
+    });
+
+    qrClose.addEventListener("click", function () {
+      qrModal.close();
+    });
+
+    qrModal.addEventListener("click", function (event) {
+      if (event.target === qrModal) qrModal.close();
+    });
+
+    qrModal.addEventListener("close", function () {
+      document.body.classList.remove("qr-modal-open");
+      qrImage.removeAttribute("src");
+      qrImage.alt = "";
+      if (activeQrTrigger) activeQrTrigger.focus();
+      activeQrTrigger = null;
+    });
+  }
+
   var backToTop = document.getElementById("back-to-top");
   if (backToTop) {
     var syncBackToTop = function () {
