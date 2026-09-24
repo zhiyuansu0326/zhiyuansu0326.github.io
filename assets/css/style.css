@@ -985,7 +985,7 @@ address {
 .award-item {
   position: relative;
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr) 42px;
+  grid-template-columns: 72px minmax(0, 1fr) 58px;
   gap: 16px;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
@@ -996,7 +996,7 @@ address {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
+  left: -10px;
   width: 3px;
   background: var(--duke);
   content: "";
@@ -1039,7 +1039,7 @@ address {
 
 .award-mark {
   align-self: stretch;
-  padding-top: 5px;
+  padding: 5px 14px 0 10px;
   border-left: 1px solid var(--line);
   color: var(--signal);
   font: 600 12px/1 var(--mono);
