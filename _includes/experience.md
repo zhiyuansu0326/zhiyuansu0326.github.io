@@ -4,7 +4,7 @@
       <span class="section-number">04</span>
       <h2>Experience</h2>
     </div>
-    <p>Research and industry experience connecting theory with real-world intelligent systems.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
   </div>
 
   <div class="experience-panel">

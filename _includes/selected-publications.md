@@ -4,7 +4,7 @@
       <span class="section-number">01</span>
       <h2>Selected Research</h2>
     </div>
-    <p>Recent work across learning, recommendation systems, and intelligent decision-making.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
   </div>
 
   <div class="selected-paper-list">

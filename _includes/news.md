@@ -4,7 +4,7 @@
       <span class="section-number">02</span>
       <h2>Recent News</h2>
     </div>
-    <p>Research milestones, new beginnings, and recent recognition.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
   </div>
 
   <ol class="news-list">

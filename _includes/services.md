@@ -4,7 +4,7 @@
       <span class="section-number">05</span>
       <h2>Academic Service</h2>
     </div>
-    <p>Contributing to the research community through peer review.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
   </div>
 
   <div class="service-row">

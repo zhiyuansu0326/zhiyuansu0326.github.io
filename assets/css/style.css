@@ -447,11 +447,32 @@ address {
   letter-spacing: -0.025em;
 }
 
-.section-heading > p {
-  margin: 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.5;
+.section-ornament {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 12px;
+  background: linear-gradient(var(--line-strong), var(--line-strong)) 0 5px / 100% 1px no-repeat;
+}
+
+.section-ornament::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  background: var(--signal);
+  content: "";
+}
+
+.section-ornament::after {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  width: 41px;
+  height: 5px;
+  background: repeating-linear-gradient(90deg, var(--duke) 0 5px, transparent 5px 9px);
+  content: "";
 }
 
 .selected-paper-list,
@@ -720,7 +741,6 @@ address {
   color: var(--signal);
 }
 
-.experience-section .section-heading > p,
 .experience-section .experience-date span,
 .experience-section .experience-copy > p:not(.experience-type),
 .experience-section .experience-copy .experience-detail {
@@ -916,14 +936,6 @@ address {
   margin: 0;
   font: 600 clamp(40px, 3.9vw, 50px)/0.96 var(--display);
   letter-spacing: -0.045em;
-}
-
-.page-intro-summary {
-  max-width: 650px;
-  margin: 0;
-  color: var(--muted);
-  font-size: 13px;
-  line-height: 1.55;
 }
 
 .publications-intro,
@@ -1475,14 +1487,9 @@ address {
     gap: 0;
   }
 
-  .page-intro-summary {
-    margin-top: 14px;
-    font-size: 13px;
-  }
-
   .publications-intro-meta {
     grid-template-columns: 1fr;
-    gap: 0;
+    gap: 10px;
   }
 
   .page-external-link {

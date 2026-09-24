@@ -4,7 +4,7 @@
 <header class="page-intro publications-intro" data-reveal>
   <h1>Publications</h1>
   <div class="publications-intro-meta">
-    <p class="page-intro-summary">Selected work on learning, reasoning, and intelligent decision-making.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
     <a class="page-external-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
   </div>
 </header>

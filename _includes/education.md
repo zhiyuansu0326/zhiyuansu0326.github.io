@@ -4,7 +4,7 @@
       <span class="section-number">03</span>
       <h2>Education</h2>
     </div>
-    <p>Academic formation across artificial intelligence, engineering, mathematics, and statistics.</p>
+    <span class="section-ornament" aria-hidden="true"></span>
   </div>
 
   <div class="education-list">

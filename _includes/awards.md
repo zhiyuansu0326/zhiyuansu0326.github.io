@@ -1,6 +1,6 @@
 <header class="page-intro awards-intro" data-reveal>
   <h1>Awards</h1>
-  <p class="page-intro-summary">Selected honors in research, scholarship, and academic achievement.</p>
+  <span class="section-ornament" aria-hidden="true"></span>
 </header>
 
 <section class="award-archive" data-reveal>
