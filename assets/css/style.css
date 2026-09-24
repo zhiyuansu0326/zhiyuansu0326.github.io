@@ -191,7 +191,7 @@ address {
 .page-kicker {
   margin-bottom: 8px;
   color: var(--signal);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   letter-spacing: 0.09em;
   text-transform: uppercase;
 }
@@ -220,7 +220,7 @@ address {
 
 .profile-email {
   margin-top: 7px;
-  font: 400 10px/1.4 var(--mono) !important;
+  font: 400 11px/1.4 var(--mono) !important;
 }
 
 .profile-socials {
@@ -315,7 +315,7 @@ address {
   padding-top: 10px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font: 400 10px/1.4 var(--mono);
+  font: 400 11px/1.4 var(--mono);
 }
 
 .profile-current > span i {
@@ -327,20 +327,6 @@ address {
   padding: 24px 0 36px;
   border-top: 4px solid var(--ink);
   border-bottom: 1px solid var(--ink);
-}
-
-.eyebrow {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-  color: var(--duke);
-  font: 600 11px/1 var(--mono);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.eyebrow span:last-child {
-  color: var(--muted);
 }
 
 .profile-intro h1 {
@@ -501,7 +487,7 @@ address {
 .publication-index {
   padding-top: 5px;
   color: var(--signal);
-  font: 500 10px/1 var(--mono);
+  font: 500 11px/1 var(--mono);
 }
 
 .selected-paper-meta {
@@ -553,7 +539,7 @@ address {
   justify-self: end;
   align-self: center;
   color: var(--duke);
-  font: 500 10px/1 var(--mono);
+  font: 500 11px/1 var(--mono);
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
@@ -689,7 +675,7 @@ address {
   border-color: var(--signal);
   background: var(--signal);
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .education-school,
@@ -766,7 +752,7 @@ address {
 }
 
 .experience-date span {
-  font: 400 10px/1 var(--mono);
+  font: 400 11px/1 var(--mono);
 }
 
 .experience-track {
@@ -805,7 +791,7 @@ address {
 
 .experience-type {
   margin-bottom: 6px;
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -855,7 +841,7 @@ address {
 
 .service-label {
   color: var(--signal);
-  font: 600 10px/2.5 var(--mono);
+  font: 600 11px/2.5 var(--mono);
   text-transform: uppercase;
 }
 
@@ -868,7 +854,7 @@ address {
   padding: 6px 10px;
   border: 1px solid var(--line-strong);
   color: var(--ink-soft);
-  font: 500 10px/1 var(--mono);
+  font: 500 11px/1 var(--mono);
 }
 
 .service-venues span + span {
@@ -911,7 +897,7 @@ address {
   display: block;
   margin-bottom: 9px;
   color: var(--signal);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   text-transform: uppercase;
 }
 
@@ -956,7 +942,7 @@ address {
 .page-external-link {
   margin-bottom: 3px;
   color: var(--duke);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -1035,7 +1021,7 @@ address {
   min-height: 21px;
   border-color: var(--duke);
   color: var(--duke);
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .award-item h2 {
@@ -1066,7 +1052,7 @@ address {
   padding: 18px 0 28px calc(var(--rail-width) + var(--layout-gap));
   border-top: 1px solid var(--line-strong);
   color: var(--muted);
-  font: 500 10px/1.4 var(--mono);
+  font: 500 11px/1.4 var(--mono);
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
@@ -1141,7 +1127,7 @@ address {
 
 .qr-modal-heading span {
   color: var(--signal);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   text-transform: uppercase;
 }
 
@@ -1291,7 +1277,7 @@ address {
 
   .profile-kicker {
     margin-bottom: 5px;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .profile-name {
@@ -1304,7 +1290,7 @@ address {
 
   .profile-email {
     margin-top: 4px;
-    font-size: 10px !important;
+    font-size: 11px !important;
   }
 
   .profile-socials {
@@ -1316,7 +1302,7 @@ address {
   .profile-socials a,
   .profile-socials button {
     min-height: 35px;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .site-content {
@@ -1325,15 +1311,6 @@ address {
 
   .profile-intro {
     padding: 18px 0 28px;
-  }
-
-  .eyebrow {
-    margin-bottom: 16px;
-    font-size: 10px;
-  }
-
-  .eyebrow span:last-child {
-    display: none;
   }
 
   .profile-intro h1 {
@@ -1354,7 +1331,7 @@ address {
   .research-topics span {
     min-height: 25px;
     padding: 5px 7px;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .editorial-section {
@@ -1405,7 +1382,7 @@ address {
 
   .news-list time,
   .news-list small {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .news-list li > span {

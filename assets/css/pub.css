@@ -27,7 +27,7 @@
 
 .publication-group-heading small {
   color: var(--muted);
-  font: 500 10px/1 var(--mono);
+  font: 500 11px/1 var(--mono);
   text-transform: uppercase;
 }
 
@@ -59,11 +59,11 @@
   justify-items: start;
   gap: 8px;
   color: var(--muted);
-  font: 500 10px/1.45 var(--mono);
+  font: 500 11px/1.45 var(--mono);
 }
 
 .publication-meta .venue-chip {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 .publication-meta .preprint-chip {
@@ -123,7 +123,7 @@
   padding: 5px 9px;
   border: 1px solid var(--line-strong);
   color: var(--duke);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -184,6 +184,6 @@
   }
 
   .publication-venue {
-    font-size: 10px;
+    font-size: 11px;
   }
 }

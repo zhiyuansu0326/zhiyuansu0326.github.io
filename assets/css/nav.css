@@ -43,7 +43,7 @@
   place-items: center;
   background: var(--duke);
   color: #fff;
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
 }
 
 .site-brand-copy {
@@ -60,7 +60,7 @@
 .site-brand-copy small {
   margin-top: 5px;
   color: var(--muted);
-  font: 500 10px/1 var(--mono);
+  font: 500 11px/1 var(--mono);
   letter-spacing: 0.09em;
 }
 
@@ -80,7 +80,7 @@
   justify-content: center;
   border-left: 1px solid var(--line);
   color: var(--ink-soft);
-  font: 600 10px/1 var(--mono);
+  font: 600 11px/1 var(--mono);
   text-decoration: none;
   text-transform: uppercase;
   counter-increment: nav-item;
