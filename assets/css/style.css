@@ -989,7 +989,7 @@ address {
   gap: 16px;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
-  transition: background-color 140ms ease;
+  transition: background-color 140ms ease, box-shadow 140ms ease;
 }
 
 .award-item::before {
@@ -1007,6 +1007,7 @@ address {
 
 .award-item:hover {
   background: var(--surface);
+  box-shadow: -10px 0 0 var(--surface);
 }
 
 .award-item:hover::before {
