@@ -16,10 +16,10 @@ I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China
   </div>
 
   <div class="research-topics" aria-label="Research interests">
-    <span>Reinforcement Learning</span>
-    <span>Sequential Decision-Making</span>
-    <span>Online Learning</span>
-    <span>Generative AI</span>
+    <strong>Currently exploring</strong>
+    <span>LLMs for Math Proving</span>
+    <span>Agentic AI</span>
+    <span>World Model</span>
   </div>
 </section>
 
