@@ -4,8 +4,6 @@
 <header class="page-intro publications-intro" data-reveal>
   <p class="page-kicker">Research archive · {{ site.data.publications.main.size }} works</p>
   <h1>Publications</h1>
-  <p>Research spanning reinforcement learning, recommendation and auction systems, reasoning in language models, and dependable AI agents.</p>
-  <div class="page-stats" aria-label="Publication statistics"><span>{{ site.data.publications.main.size }} Works</span><span>{{ peer_reviewed.size }} Peer-reviewed</span><span>{{ preprints.size }} Preprints</span><span>2025—2026</span></div>
   <a class="page-external-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
 </header>
 
