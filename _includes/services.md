@@ -1,8 +1,14 @@
-<h2>Services</h2>
-
-<div class="service-list">
-  <div class="service-item">
-    <div class="service-role">Reviewer</div>
-    <div class="service-meta">ICLR (2027), AAAI (2027), KDD (2025), TheWebConf (2026, 2027).</div>
+<section class="editorial-section service-section" data-reveal>
+  <div class="section-heading">
+    <div>
+      <span class="section-number">05</span>
+      <h2>Academic Service</h2>
+    </div>
+    <p>Contributing to the research community through peer review.</p>
   </div>
-</div>
+
+  <div class="service-row">
+    <span class="service-label">Reviewer</span>
+    <div class="service-venues"><span>ICLR ’27</span><span>AAAI ’27</span><span>KDD ’25</span><span>TheWebConf ’26</span><span>TheWebConf ’27</span></div>
+  </div>
+</section>

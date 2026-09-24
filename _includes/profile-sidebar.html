@@ -1,0 +1,35 @@
+<header class="profile-sidebar" data-reveal>
+  <div class="profile-card">
+    {% if site.avatar %}
+    <span class="profile-avatar"><img src="{{ site.avatar | relative_url }}" alt="Portrait of {{ site.title }}"></span>
+    {% endif %}
+
+    <div class="profile-identity">
+      <p class="profile-kicker">Researcher profile</p>
+      <p class="profile-name">{{ site.title }}</p>
+      <p>{{ site.position }} · ECE</p>
+      <a href="{{ site.affiliation_link }}" target="_blank" rel="noopener">{{ site.affiliation }}</a>
+      <a class="profile-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </div>
+
+    <div class="profile-socials" aria-label="Profile links">
+      {% if site.google_scholar %}<a href="{{ site.google_scholar }}" target="_blank" rel="noopener"><i class="ai ai-google-scholar" aria-hidden="true"></i><span>Scholar</span></a>{% endif %}
+      {% if site.github_link %}<a href="{{ site.github_link }}" target="_blank" rel="noopener"><i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span></a>{% endif %}
+      {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener"><i class="fab fa-linkedin-in" aria-hidden="true"></i><span>LinkedIn</span></a>{% endif %}
+      {% if site.twitter %}<a href="{{ site.twitter }}" target="_blank" rel="noopener"><i class="fab fa-x-twitter" aria-hidden="true"></i><span>X</span></a>{% endif %}
+      {% if site.xiaohongshu_qr %}<button class="social-qr-trigger" type="button" data-qr-src="{{ site.xiaohongshu_qr | relative_url }}" data-qr-title="rednote"><span class="social-brand-icon social-brand-icon-xiaohongshu" aria-hidden="true"></span><span>rednote</span></button>{% endif %}
+      {% if site.wechat_qr %}<button class="social-qr-trigger" type="button" data-qr-src="{{ site.wechat_qr | relative_url }}" data-qr-title="WeChat"><i class="fab fa-weixin" aria-hidden="true"></i><span>WeChat</span></button>{% endif %}
+    </div>
+
+    <div class="profile-current">
+      <p>Currently exploring</p>
+      <ul>
+        <li>Reinforcement Learning</li>
+        <li>Sequential Decisions</li>
+        <li>Online Learning</li>
+        <li>Generative AI</li>
+      </ul>
+      <span><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Durham, North Carolina</span>
+    </div>
+  </div>
+</header>

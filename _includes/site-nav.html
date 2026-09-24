@@ -1,0 +1,24 @@
+<nav class="topnav" aria-label="Primary navigation">
+  <div class="nav-shell">
+    <a class="site-brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} — Home">
+      <span class="site-monogram" aria-hidden="true">ZS</span>
+      <span class="site-brand-copy">
+        <strong>{{ site.title }}</strong>
+        <small>Research profile</small>
+      </span>
+    </a>
+
+    <div id="myLinks" class="nav-links">
+      {% include navigation.md %}
+    </div>
+
+    <a class="nav-affiliation" href="{{ site.affiliation_link }}" target="_blank" rel="noopener" aria-label="{{ site.affiliation }}">
+      <img src="{{ site.nav_logo | default: site.affiliation_logo | relative_url }}" alt="{{ site.affiliation }} logo">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-controls="myLinks" aria-expanded="false">
+      <span class="nav-toggle-line"></span>
+      <span class="nav-toggle-line"></span>
+    </button>
+  </div>
+</nav>

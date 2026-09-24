@@ -2,15 +2,28 @@
 layout: homepage
 ---
 
-<div class="intro-copy" markdown="1">
+<section class="profile-intro" data-reveal>
+  <p class="eyebrow"><span>Research profile</span><span>Duke ECE · 2026</span></p>
+  <h1>Learning to make <em>reliable decisions</em> under uncertainty.</h1>
+  <p class="intro-lead">I develop theoretically grounded and practically scalable methods for intelligent systems that learn, adapt, and reason over time.</p>
 
-I am a Ph.D. student in Electrical and Computer Engineering at [Duke University](https://www.duke.edu/){:target="_blank" rel="noopener"}, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/){:target="_blank" rel="noopener"} (NAE Member, IEEE Fellow) and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home){:target="_blank" rel="noopener"}. My research focuses on **reinforcement learning**, **sequential decision-making**, **online learning**, and **generative AI**, with an emphasis on developing **theoretically grounded and practically scalable methods**.
+  <div class="intro-copy" markdown="1">
+
+I am a Ph.D. student in Electrical and Computer Engineering at [Duke University](https://www.duke.edu/){:target="_blank" rel="noopener"}, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/){:target="_blank" rel="noopener"} (NAE Member, IEEE Fellow) and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home){:target="_blank" rel="noopener"}.
 
 I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China](https://www.ruc.edu.cn/){:target="_blank" rel="noopener"}, working closely with [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/ZHANG-Xiao/){:target="_blank" rel="noopener"} and [Prof. Qi Qi](https://gsai.ruc.edu.cn/english/qiqi){:target="_blank" rel="noopener"}.
 
-<!-- In addition, I was an exchange student at the [University of California, Davis](https://www.ucdavis.edu/){:target="_blank" rel="noopener"} and a visiting researcher of [Dalhousie University](https://www.dal.ca/){:target="_blank" rel="noopener"}. -->
+  </div>
 
-</div>
+  <div class="research-topics" aria-label="Research interests">
+    <span>Reinforcement Learning</span>
+    <span>Sequential Decision-Making</span>
+    <span>Online Learning</span>
+    <span>Generative AI</span>
+  </div>
+</section>
+
+{% include_relative _includes/selected-publications.md %}
 
 {% include_relative _includes/news.md %}
 
@@ -19,9 +32,5 @@ I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China
 {% include_relative _includes/experience.md %}
 
 {% include_relative _includes/services.md %}
-
-{% comment %}
-{% include_relative _includes/personal.md %}
-{% endcomment %}
 
 {% include_relative _includes/contact.md %}

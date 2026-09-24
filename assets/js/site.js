@@ -1,14 +1,19 @@
 (function () {
   "use strict";
 
+  var root = document.documentElement;
+  var body = document.body;
   var nav = document.getElementById("myLinks");
+  var navBar = document.querySelector(".topnav");
   var toggle = document.querySelector(".nav-toggle");
+  var backToTop = document.getElementById("back-to-top");
+  var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   function setNavigation(open) {
     if (!nav || !toggle) return;
     nav.classList.toggle("open", open);
-    toggle.classList.toggle("active", open);
     toggle.setAttribute("aria-expanded", String(open));
+    body.classList.toggle("nav-open", open);
   }
 
   if (nav && toggle) {
@@ -26,6 +31,44 @@
         toggle.focus();
       }
     });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 800) setNavigation(false);
+    });
+  }
+
+  function syncScrollState() {
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var scrollRange = document.documentElement.scrollHeight - window.innerHeight;
+    var progress = scrollRange > 0 ? Math.min(100, Math.max(0, scrollTop / scrollRange * 100)) : 0;
+
+    root.style.setProperty("--page-progress", progress + "%");
+    if (navBar) navBar.classList.toggle("is-scrolled", scrollTop > 18);
+    if (backToTop) backToTop.classList.toggle("is-visible", scrollTop > 420);
+  }
+
+  syncScrollState();
+  window.addEventListener("scroll", syncScrollState, { passive: true });
+
+  if (backToTop) {
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
+    });
+  }
+
+  var revealItems = document.querySelectorAll("[data-reveal]");
+  if (reduceMotion || !("IntersectionObserver" in window)) {
+    revealItems.forEach(function (item) { item.classList.add("is-visible"); });
+  } else {
+    var revealObserver = new IntersectionObserver(function (entries, observer) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      });
+    }, { rootMargin: "0px 0px -7%", threshold: 0.07 });
+
+    revealItems.forEach(function (item) { revealObserver.observe(item); });
   }
 
   var qrModal = document.getElementById("qr-modal");
@@ -43,40 +86,21 @@
         qrImage.alt = title + " QR code";
         qrTitle.textContent = title;
         activeQrTrigger = trigger;
-        document.body.classList.add("qr-modal-open");
+        body.classList.add("qr-modal-open");
         qrModal.showModal();
       });
     });
 
-    qrClose.addEventListener("click", function () {
-      qrModal.close();
-    });
-
+    qrClose.addEventListener("click", function () { qrModal.close(); });
     qrModal.addEventListener("click", function (event) {
       if (event.target === qrModal) qrModal.close();
     });
-
     qrModal.addEventListener("close", function () {
-      document.body.classList.remove("qr-modal-open");
+      body.classList.remove("qr-modal-open");
       qrImage.removeAttribute("src");
       qrImage.alt = "";
       if (activeQrTrigger) activeQrTrigger.focus();
       activeQrTrigger = null;
     });
-  }
-
-  var backToTop = document.getElementById("back-to-top");
-  if (backToTop) {
-    var syncBackToTop = function () {
-      backToTop.classList.toggle("is-visible", window.scrollY > 320);
-    };
-
-    backToTop.addEventListener("click", function () {
-      var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-      window.scrollTo({ top: 0, behavior: reduceMotion ? "auto" : "smooth" });
-    });
-
-    syncBackToTop();
-    window.addEventListener("scroll", syncBackToTop, { passive: true });
   }
 })();
