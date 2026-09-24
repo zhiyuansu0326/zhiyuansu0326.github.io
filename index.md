@@ -4,7 +4,7 @@ layout: homepage
 
 <section class="profile-intro" data-reveal>
   <p class="eyebrow"><span>Research profile</span><span>Duke ECE · 2026</span></p>
-  <h1>Learning to make <em>reliable decisions</em> under uncertainty.</h1>
+  <h1>Reliable decision-making<br><em>under uncertainty.</em></h1>
   <p class="intro-lead">I develop theoretically grounded and practically scalable methods for intelligent systems that learn, adapt, and reason over time.</p>
 
   <div class="intro-copy" markdown="1">

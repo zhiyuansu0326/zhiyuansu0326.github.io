@@ -5,6 +5,7 @@
   <p class="page-kicker">Research archive · {{ site.data.publications.main.size }} works</p>
   <h1>Publications</h1>
   <p>Research spanning reinforcement learning, recommendation and auction systems, reasoning in language models, and dependable AI agents.</p>
+  <div class="page-stats" aria-label="Publication statistics"><span>{{ site.data.publications.main.size }} Works</span><span>{{ peer_reviewed.size }} Peer-reviewed</span><span>{{ preprints.size }} Preprints</span><span>2025—2026</span></div>
   <a class="page-external-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
 </header>
 
@@ -14,8 +15,8 @@
     {% for paper in peer_reviewed %}
     <li class="publication-card">
       <span class="publication-index">0{{ forloop.index }}</span>
+      <div class="publication-meta"><span class="venue-chip">{{ paper.conference_short }}</span><span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span></div>
       <div class="publication-body">
-        <div class="publication-meta"><span class="venue-chip">{{ paper.conference_short }}</span><span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span></div>
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-venue">{{ paper.conference }}</p>
@@ -43,8 +44,8 @@
     {% for paper in preprints %}
     <li class="publication-card">
       <span class="publication-index">0{{ forloop.index }}</span>
+      <div class="publication-meta"><span class="venue-chip preprint-chip">Preprint</span><span>{{ paper.conference }}</span></div>
       <div class="publication-body">
-        <div class="publication-meta"><span class="venue-chip preprint-chip">Preprint</span><span>{{ paper.conference }}</span></div>
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         {% if paper.pdf %}<div class="publication-links"><a href="{{ paper.pdf }}" target="_blank" rel="noopener">Read preprint ↗</a></div>{% endif %}

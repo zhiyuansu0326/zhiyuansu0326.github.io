@@ -11,11 +11,11 @@
     {% for paper in site.data.publications.main limit:4 %}
     <article class="selected-paper">
       <div class="selected-paper-index">0{{ forloop.index }}</div>
+      <div class="selected-paper-meta">
+        <span class="venue-chip">{{ paper.conference_short }}</span>
+        <span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span>
+      </div>
       <div class="selected-paper-main">
-        <div class="selected-paper-meta">
-          <span class="venue-chip">{{ paper.conference_short }}</span>
-          <span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span>
-        </div>
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p>{{ paper.authors }}</p>
       </div>
