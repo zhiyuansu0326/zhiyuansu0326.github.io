@@ -1,5 +1,4 @@
 <header class="page-intro awards-intro" data-reveal>
-  <p class="page-kicker">Recognition · 2024—2026</p>
   <h1>Awards</h1>
   <p>Fellowships, scholarships, travel support, and academic recognition received throughout my undergraduate and doctoral journey.</p>
 </header>

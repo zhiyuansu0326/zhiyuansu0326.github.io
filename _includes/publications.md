@@ -2,7 +2,6 @@
 {% assign preprints = site.data.publications.main | where: "conference_short", "arXiv" %}
 
 <header class="page-intro publications-intro" data-reveal>
-  <p class="page-kicker">Research archive · {{ site.data.publications.main.size }} works</p>
   <h1>Publications</h1>
   <a class="page-external-link" href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar <span aria-hidden="true">↗</span></a>
 </header>

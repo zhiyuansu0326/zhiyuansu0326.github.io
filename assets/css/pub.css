@@ -1,9 +1,9 @@
 .publication-group {
-  padding: 40px 0 8px;
+  padding: 32px 0 8px;
 }
 
 .publication-group + .publication-group {
-  padding-top: 48px;
+  padding-top: 42px;
 }
 
 .publication-group-heading {
@@ -11,7 +11,7 @@
   grid-template-columns: 40px minmax(0, 1fr) auto;
   gap: 12px;
   align-items: baseline;
-  margin-bottom: 18px;
+  margin-bottom: 14px;
 }
 
 .publication-group-heading > span {
@@ -21,7 +21,7 @@
 
 .publication-group-heading h2 {
   margin: 0;
-  font: 600 27px/1 var(--display);
+  font: 600 25px/1 var(--display);
   letter-spacing: -0.025em;
 }
 
@@ -42,7 +42,7 @@
   display: grid;
   grid-template-columns: 40px 118px minmax(0, 1fr);
   gap: 14px;
-  padding: 19px 0;
+  padding: 17px 0;
   border-bottom: 1px solid var(--line);
   transition: background-color 140ms ease, padding 140ms ease;
 }
@@ -149,7 +149,7 @@
 
 @media (max-width: 600px) {
   .publication-group {
-    padding-top: 30px;
+    padding-top: 26px;
   }
 
   .publication-group + .publication-group {
@@ -162,7 +162,7 @@
   }
 
   .publication-group-heading h2 {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .publication-group-heading small {
