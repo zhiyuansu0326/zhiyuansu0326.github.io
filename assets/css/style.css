@@ -918,7 +918,7 @@ address {
   letter-spacing: -0.045em;
 }
 
-.page-intro > p:not(.page-kicker) {
+.page-intro-summary {
   max-width: 650px;
   margin: 0;
   color: var(--muted);
@@ -929,17 +929,16 @@ address {
 .publications-intro,
 .awards-intro {
   display: grid;
+  grid-template-columns: minmax(220px, 0.55fr) minmax(320px, 1fr);
+  gap: 40px;
   align-items: end;
 }
 
-.publications-intro {
+.publications-intro-meta {
+  display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   gap: 24px;
-}
-
-.awards-intro {
-  grid-template-columns: minmax(220px, 0.55fr) minmax(320px, 1fr);
-  gap: 40px;
+  align-items: end;
 }
 
 .page-external-link {
@@ -1476,9 +1475,14 @@ address {
     gap: 0;
   }
 
-  .page-intro > p:not(.page-kicker) {
+  .page-intro-summary {
     margin-top: 14px;
     font-size: 13px;
+  }
+
+  .publications-intro-meta {
+    grid-template-columns: 1fr;
+    gap: 0;
   }
 
   .page-external-link {

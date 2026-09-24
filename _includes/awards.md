@@ -1,6 +1,6 @@
 <header class="page-intro awards-intro" data-reveal>
   <h1>Awards</h1>
-  <p>Fellowships, scholarships, travel support, and academic recognition received throughout my undergraduate and doctoral journey.</p>
+  <p class="page-intro-summary">Selected honors in research, scholarship, and academic achievement.</p>
 </header>
 
 <section class="award-archive" data-reveal>
