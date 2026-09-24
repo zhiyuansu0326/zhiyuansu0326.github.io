@@ -385,8 +385,7 @@ address {
 
 .research-topics span,
 .venue-chip,
-.current-chip,
-.award-type {
+.current-chip {
   display: inline-flex;
   min-height: 26px;
   align-items: center;
@@ -469,7 +468,7 @@ address {
 
 .selected-paper {
   display: grid;
-  grid-template-columns: 40px 102px minmax(0, 1fr) 80px;
+  grid-template-columns: 40px 102px minmax(0, 1fr);
   gap: 14px;
   align-items: start;
   padding: 18px 0;
@@ -532,25 +531,6 @@ address {
 .selected-paper-main strong {
   color: var(--ink-soft);
   font-weight: 600;
-}
-
-.paper-arrow,
-.paper-status {
-  justify-self: end;
-  align-self: center;
-  color: var(--duke);
-  font: 500 11px/1 var(--mono);
-  text-decoration: none;
-  text-transform: uppercase;
-  white-space: nowrap;
-}
-
-.paper-arrow:hover {
-  color: var(--signal);
-}
-
-.paper-status {
-  color: var(--muted);
 }
 
 .section-cta,
@@ -1017,15 +997,8 @@ address {
   font: 400 11px/1.2 var(--mono);
 }
 
-.award-item .award-type {
-  min-height: 21px;
-  border-color: var(--duke);
-  color: var(--duke);
-  font-size: 11px;
-}
-
 .award-item h2 {
-  margin: 8px 0 0;
+  margin: 0;
   font: 600 19px/1.16 var(--display);
 }
 
@@ -1365,13 +1338,6 @@ address {
 
   .selected-paper-main > p {
     font-size: 12px;
-  }
-
-  .paper-arrow,
-  .paper-status {
-    grid-column: 3;
-    justify-self: start;
-    margin-top: -3px;
   }
 
   .news-list li {

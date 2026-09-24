@@ -23,7 +23,6 @@
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p>{{ paper.authors }}</p>
       </div>
-      {% if paper.pdf %}<a class="paper-arrow" href="{{ paper.pdf }}" target="_blank" rel="noopener" aria-label="Read {{ paper.title }}"><span>Paper</span> ↗</a>{% else %}<span class="paper-status">Forthcoming</span>{% endif %}
     </article>
     {% endif %}
     {% endunless %}

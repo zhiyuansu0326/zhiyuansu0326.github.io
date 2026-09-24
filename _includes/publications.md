@@ -20,16 +20,13 @@
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-venue">{{ paper.conference }}</p>
-        {% if paper.code or paper.page or paper.data or paper.bibtex or paper.pdf %}
+        {% if paper.code or paper.page or paper.data or paper.bibtex %}
         <div class="publication-links">
-          {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">Paper ↗</a>{% endif %}
           {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
           {% if paper.page %}<a href="{{ paper.page }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}
           {% if paper.data %}<a href="{{ paper.data }}" target="_blank" rel="noopener">Dataset ↗</a>{% endif %}
           {% if paper.bibtex %}<a href="{{ paper.bibtex }}" target="_blank" rel="noopener">BibTeX ↗</a>{% endif %}
         </div>
-        {% else %}
-        <span class="publication-forthcoming">Forthcoming</span>
         {% endif %}
       </div>
     </li>
@@ -48,7 +45,6 @@
       <div class="publication-body">
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
-        {% if paper.pdf %}<div class="publication-links"><a href="{{ paper.pdf }}" target="_blank" rel="noopener">Read preprint ↗</a></div>{% endif %}
       </div>
     </li>
     {% endfor %}

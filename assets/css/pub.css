@@ -115,8 +115,7 @@
   margin-top: 11px;
 }
 
-.publication-links a,
-.publication-forthcoming {
+.publication-links a {
   display: inline-flex;
   min-height: 27px;
   align-items: center;
@@ -136,11 +135,6 @@
   border-color: var(--duke);
   background: var(--duke);
   color: #fff;
-}
-
-.publication-forthcoming {
-  margin-top: 11px;
-  color: var(--muted);
 }
 
 .preprint-group .bibliography {
