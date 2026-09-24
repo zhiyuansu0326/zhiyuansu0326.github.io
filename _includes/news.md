@@ -1,6 +1,7 @@
 <h2>News</h2>
 
 <ul class="timeline-list news-list">
+<li><time>Sep. 2026</time><span>CDPG is accepted by NeurIPS 2026. Congratulations to Zishang!</span></li>
 <li><time>May. 2026</time><span>CRAMER is accepted by ICML 2026. Many thanks to Prof. Ga Wu, Naihe and Luther!</span></li>
 <li><time>Mar. 2026</time><span>Accepted into Duke ECE! Looking forward to my Ph.D. life at Duke : )</span></li>
 <li><time>Nov. 2025</time><span>IMPACTNet is accepted by KDD 2026 Research Track. Congratulations to Yuhan!</span></li>
