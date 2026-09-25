@@ -353,7 +353,7 @@ address {
 }
 
 .intro-lead {
-  max-width: 760px;
+  max-width: 100%;
   margin: 22px 0 20px;
   color: var(--ink-soft);
   font-size: 17px;
