@@ -16,7 +16,6 @@
       </div>
       <div class="experience-track"><span></span></div>
       <div class="experience-copy">
-        <p class="experience-type">Research experience</p>
         <h3><a href="https://www.mitacs.ca/" target="_blank" rel="noopener">Mitacs</a> Globalink Research Internship</h3>
         <p>Visiting Researcher at <a href="https://www.dal.ca/" target="_blank" rel="noopener">Dalhousie University</a> · Advisor: <a href="https://web.cs.dal.ca/~gaw/" target="_blank" rel="noopener">Prof. Ga Wu</a></p>
         <p class="experience-detail">Halifax, NS, Canada</p>
@@ -32,7 +31,6 @@
       </div>
       <div class="experience-track"><span></span></div>
       <div class="experience-copy">
-        <p class="experience-type">Industry experience</p>
         <h3><a href="https://ir.baidu.com/" target="_blank" rel="noopener">Baidu Inc.</a></h3>
         <p>Summer Intern</p>
         <p class="experience-detail">Beijing, China</p>

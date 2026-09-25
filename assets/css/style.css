@@ -703,12 +703,11 @@ address {
   color: var(--ink);
 }
 
-.experience-section .section-number,
-.experience-section .experience-type {
+.experience-section .section-number {
   color: var(--signal);
 }
 
-.experience-section .experience-copy > p:not(.experience-type),
+.experience-section .experience-copy > p,
 .experience-section .experience-copy .experience-detail {
   color: var(--muted);
 }
@@ -780,13 +779,6 @@ address {
   padding-bottom: 14px;
 }
 
-.experience-type {
-  margin-bottom: 5px;
-  font: 600 12px/1 var(--mono);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .experience-copy h3 {
   margin: 0;
   font: 600 18px/1.15 var(--display);
@@ -803,7 +795,7 @@ address {
   color: var(--duke);
 }
 
-.experience-copy > p:not(.experience-type) {
+.experience-copy > p {
   margin: 5px 0 0;
   font-size: 13px;
   line-height: 1.4;
