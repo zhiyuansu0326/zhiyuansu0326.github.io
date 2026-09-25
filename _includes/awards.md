@@ -15,7 +15,7 @@
     <li class="award-item"><time datetime="2025-11">Nov 2025</time><div><h2>Highest Funding</h2><p>Qiushi Academic International Support Program</p></div><span class="award-mark" aria-hidden="true">03</span></li>
     <li class="award-item"><time datetime="2025-07">Jul 2025</time><div><h2>KDD 2025 Student Travel Award</h2><p>SIGKDD · 1,000 USD</p></div><span class="award-mark" aria-hidden="true">04</span></li>
     <li class="award-item"><time datetime="2025-06">Jun 2025</time><div><h2>Presidential Scholarship</h2><p>Renmin University of China · 40,000 CNY</p></div><span class="award-mark" aria-hidden="true">05</span></li>
-    <li class="award-item"><time datetime="2025-01">Jan 2025</time><div><h2>Mitacs Scholarship</h2><p>Mitacs · 6,000 CAD</p></div><span class="award-mark" aria-hidden="true">06</span></li>
+    <li class="award-item"><time datetime="2025-01">Jan 2025</time><div><h2>Mitacs Globalink Scholarship</h2><p>Mitacs · 6,000 CAD</p></div><span class="award-mark" aria-hidden="true">06</span></li>
   </ol>
 
   <div class="award-year"><span>2024</span><div></div></div>
