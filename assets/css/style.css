@@ -1342,12 +1342,18 @@ address {
 
   .research-topics,
   .service-venues {
-    gap: 4px;
+    gap: 0;
   }
 
   .research-topics span + span,
   .service-venues span + span {
     border-left: 1px solid var(--line-strong);
+  }
+
+  .research-topics span,
+  .service-venues span {
+    margin-right: -1px;
+    margin-bottom: -1px;
   }
 
   .editorial-section {
