@@ -503,6 +503,7 @@ address {
   border-color: var(--duke);
   background: var(--duke);
   color: #fff;
+  text-transform: none;
 }
 
 .selected-paper h3 {
@@ -707,7 +708,6 @@ address {
   color: var(--signal);
 }
 
-.experience-section .experience-date span,
 .experience-section .experience-copy > p:not(.experience-type),
 .experience-section .experience-copy .experience-detail {
   color: var(--muted);
@@ -715,7 +715,7 @@ address {
 
 .experience-item {
   display: grid;
-  grid-template-columns: 68px 18px minmax(0, 1fr) 48px;
+  grid-template-columns: 74px 18px minmax(0, 1fr) 48px;
   gap: 14px;
   min-height: 124px;
 }
@@ -723,16 +723,27 @@ address {
 .experience-date {
   display: grid;
   align-content: start;
-  gap: 5px;
+  gap: 4px;
 }
 
 .experience-date time {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
   color: var(--duke);
   font: 600 12px/1 var(--mono);
 }
 
-.experience-date span {
-  font: 400 12px/1 var(--mono);
+.experience-date time strong {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.experience-date .experience-date-rule {
+  width: 1px;
+  height: 9px;
+  margin-left: 3px;
+  background: var(--line-strong);
 }
 
 .experience-track {
@@ -1391,7 +1402,7 @@ address {
   }
 
   .experience-item {
-    grid-template-columns: 54px 14px minmax(0, 1fr);
+    grid-template-columns: 64px 14px minmax(0, 1fr);
     gap: 9px;
   }
 

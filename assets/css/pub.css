@@ -28,7 +28,6 @@
 .publication-group-heading small {
   color: var(--muted);
   font: 500 12px/1 var(--mono);
-  text-transform: uppercase;
 }
 
 .bibliography {
@@ -64,6 +63,7 @@
 
 .publication-meta .venue-chip {
   font-size: 12px;
+  text-transform: none;
 }
 
 .publication-meta .preprint-chip {
