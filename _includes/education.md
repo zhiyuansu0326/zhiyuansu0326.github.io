@@ -12,7 +12,7 @@
       <div class="institution-logo"><img src="{{ "/assets/img/duke_logo.png" | relative_url }}" alt="Duke University logo"></div>
       <div class="education-main">
         <div class="institution-line"><h3><a href="https://www.duke.edu/" target="_blank" rel="noopener">Duke University</a></h3><span class="current-chip">Current</span></div>
-        <p class="education-school"><a href="https://pratt.duke.edu/" target="_blank" rel="noopener">Pratt School of Engineering</a> · <a href="https://www.ece.duke.edu/" target="_blank" rel="noopener">Electrical &amp; Computer Engineering</a></p>
+        <p class="education-school"><a href="https://pratt.duke.edu/" target="_blank" rel="noopener">Pratt School of Engineering</a> · <a href="https://www.ece.duke.edu/" target="_blank" rel="noopener">Pierre R. Lamond Department of Electrical and Computer Engineering</a></p>
         <p class="education-degree">Ph.D. in Electrical and Computer Engineering</p>
       </div>
       <div class="education-side"><time>Aug 2026—Present</time><span>Durham, NC, USA</span></div>
