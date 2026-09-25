@@ -332,8 +332,18 @@ address {
 .profile-intro h1 {
   max-width: 900px;
   margin: 0;
-  font: 600 clamp(40px, 4.4vw, 56px)/0.96 var(--display);
+  font: 500 clamp(40px, 4.4vw, 56px)/0.96 var(--display);
   letter-spacing: -0.045em;
+}
+
+.profile-intro h1 span {
+  color: var(--ink-soft);
+  font-weight: 500;
+}
+
+.profile-intro h1 strong {
+  color: var(--ink);
+  font-weight: 700;
 }
 
 .profile-intro h1 em {

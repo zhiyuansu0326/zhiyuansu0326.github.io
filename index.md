@@ -3,8 +3,8 @@ layout: homepage
 ---
 
 <section class="profile-intro" data-reveal>
-  <h1>Reliable decision-making<br><em>under uncertainty.</em></h1>
-  <p class="intro-lead">I develop theoretically grounded and practically scalable methods for intelligent systems that learn, adapt, and reason over time.</p>
+  <h1><span>Learning</span> <strong>to decide</strong><br><em>under uncertainty.</em></h1>
+  <p class="intro-lead">I develop principled methods for intelligent systems that reason, adapt, and make reliable decisions over time.</p>
 
   <div class="intro-copy" markdown="1">
 
