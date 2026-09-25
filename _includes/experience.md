@@ -1,7 +1,7 @@
 <section class="editorial-section experience-section" data-reveal>
   <div class="section-heading">
     <div>
-      <span class="section-number">04</span>
+      <span class="section-marker" aria-hidden="true"></span>
       <h2>Experience</h2>
     </div>
     <span class="section-ornament" aria-hidden="true"></span>

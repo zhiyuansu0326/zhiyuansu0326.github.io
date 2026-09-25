@@ -1,7 +1,7 @@
 <section class="editorial-section education-section" data-reveal>
   <div class="section-heading">
     <div>
-      <span class="section-number">03</span>
+      <span class="section-marker" aria-hidden="true"></span>
       <h2>Education</h2>
     </div>
     <span class="section-ornament" aria-hidden="true"></span>

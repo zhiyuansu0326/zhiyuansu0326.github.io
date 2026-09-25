@@ -1,7 +1,7 @@
 <section class="editorial-section service-section" data-reveal>
   <div class="section-heading">
     <div>
-      <span class="section-number">05</span>
+      <span class="section-marker" aria-hidden="true"></span>
       <h2>Academic Service</h2>
     </div>
     <span class="section-ornament" aria-hidden="true"></span>

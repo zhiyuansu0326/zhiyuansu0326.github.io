@@ -13,7 +13,7 @@
 </header>
 
 <section class="publication-group" data-reveal>
-  <div class="publication-group-heading"><span>01</span><h2>Peer-reviewed Research</h2><small>{{ peer_reviewed.size }} papers</small></div>
+  <div class="publication-group-heading"><span class="section-marker" aria-hidden="true"></span><h2>Peer-reviewed Research</h2><small>{{ peer_reviewed.size }} papers</small></div>
   <ol class="bibliography">
     {% for paper in peer_reviewed %}
     <li class="publication-card">
@@ -39,7 +39,7 @@
 
 {% if preprints.size > 0 %}
 <section class="publication-group preprint-group" data-reveal>
-  <div class="publication-group-heading"><span>02</span><h2>Preprints</h2><small>{{ preprints.size }} papers</small></div>
+  <div class="publication-group-heading"><span class="section-marker" aria-hidden="true"></span><h2>Preprints</h2><small>{{ preprints.size }} papers</small></div>
   <ol class="bibliography">
     {% for paper in preprints %}
     <li class="publication-card">

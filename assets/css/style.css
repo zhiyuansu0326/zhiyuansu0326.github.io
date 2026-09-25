@@ -420,9 +420,33 @@ address {
   align-items: baseline;
 }
 
-.section-number {
-  color: var(--signal);
-  font: 600 12px/1 var(--mono);
+.section-marker {
+  position: relative;
+  display: block;
+  width: 26px;
+  height: 9px;
+  align-self: center;
+  background: linear-gradient(var(--line-strong), var(--line-strong)) 0 4px / 100% 1px no-repeat;
+}
+
+.section-marker::before,
+.section-marker::after {
+  position: absolute;
+  top: 2px;
+  height: 5px;
+  content: "";
+}
+
+.section-marker::before {
+  left: 0;
+  width: 5px;
+  background: var(--signal);
+}
+
+.section-marker::after {
+  right: 0;
+  width: 9px;
+  background: repeating-linear-gradient(90deg, var(--duke) 0 3px, transparent 3px 5px);
 }
 
 .section-heading h2,
@@ -701,10 +725,6 @@ address {
   border-bottom: 1px solid var(--ink);
   background: transparent;
   color: var(--ink);
-}
-
-.experience-section .section-number {
-  color: var(--signal);
 }
 
 .experience-section .experience-copy > p,

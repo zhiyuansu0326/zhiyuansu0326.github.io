@@ -1,7 +1,7 @@
 <section class="editorial-section selected-work" data-reveal>
   <div class="section-heading">
     <div>
-      <span class="section-number">01</span>
+      <span class="section-marker" aria-hidden="true"></span>
       <h2>Selected Research</h2>
     </div>
     <span class="section-ornament" aria-hidden="true"></span>

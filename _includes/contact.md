@@ -1,6 +1,6 @@
 <section class="editorial-section contact-section" data-reveal>
   <div class="contact-intro">
-    <span class="section-number">06</span>
+    <span class="section-marker" aria-hidden="true"></span>
     <h2>Let’s start a conversation.</h2>
     <p>I'm always happy to discuss research ideas, possible collaborations, and questions around cutting-edge AI and machine learning methods.</p>
     <a class="contact-email-large" href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>

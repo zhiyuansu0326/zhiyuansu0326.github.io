@@ -1,7 +1,7 @@
 <section class="editorial-section news-section" data-reveal>
   <div class="section-heading">
     <div>
-      <span class="section-number">02</span>
+      <span class="section-marker" aria-hidden="true"></span>
       <h2>Recent News</h2>
     </div>
     <span class="section-ornament" aria-hidden="true"></span>
