@@ -214,7 +214,7 @@ address {
   width: max-content;
   max-width: 100%;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -1257,7 +1257,8 @@ address {
     font-size: 18px;
   }
 
-  .profile-identity > p:not(.profile-kicker):not(.profile-name) {
+  .profile-identity > p:not(.profile-kicker):not(.profile-name),
+  .profile-identity > a {
     font-size: 12px;
   }
 
