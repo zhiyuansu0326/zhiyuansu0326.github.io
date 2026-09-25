@@ -77,6 +77,11 @@
   var qrClose = document.querySelector(".qr-modal-close");
   var qrTriggers = document.querySelectorAll(".social-qr-trigger");
   var activeQrTrigger = null;
+  var qrScrollPosition = 0;
+
+  function restoreQrScroll() {
+    window.scrollTo({ top: qrScrollPosition, left: 0, behavior: "auto" });
+  }
 
   if (qrModal && qrImage && qrTitle && qrClose && qrTriggers.length) {
     qrTriggers.forEach(function (trigger) {
@@ -86,8 +91,12 @@
         qrImage.alt = title + " QR code";
         qrTitle.textContent = title;
         activeQrTrigger = trigger;
+        qrScrollPosition = window.scrollY || document.documentElement.scrollTop;
         body.classList.add("qr-modal-open");
         qrModal.showModal();
+        qrClose.focus({ preventScroll: true });
+        restoreQrScroll();
+        window.requestAnimationFrame(restoreQrScroll);
       });
     });
 
@@ -99,8 +108,12 @@
       body.classList.remove("qr-modal-open");
       qrImage.removeAttribute("src");
       qrImage.alt = "";
-      if (activeQrTrigger) activeQrTrigger.focus();
+      var triggerToRestore = activeQrTrigger;
       activeQrTrigger = null;
+      window.requestAnimationFrame(function () {
+        if (triggerToRestore) triggerToRestore.focus({ preventScroll: true });
+        restoreQrScroll();
+      });
     });
   }
 })();
