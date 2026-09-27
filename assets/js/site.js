@@ -90,14 +90,26 @@
     }
   }
 
+  function preventQrScroll(event) {
+    event.preventDefault();
+  }
+
+  function preventQrKeyScroll(event) {
+    var scrollKeys = ["ArrowDown", "ArrowUp", "End", "Home", "PageDown", "PageUp", " "];
+    var isInteractiveSpace = event.key === " " && event.target.closest && event.target.closest("a, button, input, select, textarea");
+    if (scrollKeys.indexOf(event.key) !== -1 && !isInteractiveSpace) event.preventDefault();
+  }
+
   function lockQrScroll() {
-    body.style.setProperty("--qr-scroll-offset", -qrScrollPosition + "px");
-    body.classList.add("qr-modal-open");
+    document.addEventListener("wheel", preventQrScroll, { passive: false });
+    document.addEventListener("touchmove", preventQrScroll, { passive: false });
+    document.addEventListener("keydown", preventQrKeyScroll);
   }
 
   function unlockQrScroll() {
-    body.classList.remove("qr-modal-open");
-    body.style.removeProperty("--qr-scroll-offset");
+    document.removeEventListener("wheel", preventQrScroll);
+    document.removeEventListener("touchmove", preventQrScroll);
+    document.removeEventListener("keydown", preventQrKeyScroll);
   }
 
   if (qrModal && qrImage && qrTitle && qrClose && qrTriggers.length) {
