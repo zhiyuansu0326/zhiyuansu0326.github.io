@@ -80,7 +80,24 @@
   var qrScrollPosition = 0;
 
   function restoreQrScroll() {
+    var previousScrollBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
     window.scrollTo({ top: qrScrollPosition, left: 0, behavior: "auto" });
+    if (previousScrollBehavior) {
+      root.style.scrollBehavior = previousScrollBehavior;
+    } else {
+      root.style.removeProperty("scroll-behavior");
+    }
+  }
+
+  function lockQrScroll() {
+    body.style.setProperty("--qr-scroll-offset", -qrScrollPosition + "px");
+    body.classList.add("qr-modal-open");
+  }
+
+  function unlockQrScroll() {
+    body.classList.remove("qr-modal-open");
+    body.style.removeProperty("--qr-scroll-offset");
   }
 
   if (qrModal && qrImage && qrTitle && qrClose && qrTriggers.length) {
@@ -92,11 +109,10 @@
         qrTitle.textContent = title;
         activeQrTrigger = trigger;
         qrScrollPosition = window.scrollY || document.documentElement.scrollTop;
-        body.classList.add("qr-modal-open");
+        trigger.blur();
+        lockQrScroll();
         qrModal.showModal();
         qrClose.focus({ preventScroll: true });
-        restoreQrScroll();
-        window.requestAnimationFrame(restoreQrScroll);
       });
     });
 
@@ -105,15 +121,17 @@
       if (event.target === qrModal) qrModal.close();
     });
     qrModal.addEventListener("close", function () {
-      body.classList.remove("qr-modal-open");
       qrImage.removeAttribute("src");
       qrImage.alt = "";
       var triggerToRestore = activeQrTrigger;
       activeQrTrigger = null;
-      window.requestAnimationFrame(function () {
-        if (triggerToRestore) triggerToRestore.focus({ preventScroll: true });
+      // Let the native dialog finish restoring focus before releasing the page.
+      window.setTimeout(function () {
+        unlockQrScroll();
         restoreQrScroll();
-      });
+        if (triggerToRestore) triggerToRestore.focus({ preventScroll: true });
+        syncScrollState();
+      }, 50);
     });
   }
 })();

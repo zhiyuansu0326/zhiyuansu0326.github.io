@@ -49,8 +49,16 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-body.qr-modal-open,
 body.nav-open {
+  overflow: hidden;
+}
+
+body.qr-modal-open {
+  position: fixed;
+  top: var(--qr-scroll-offset, 0);
+  right: 0;
+  left: 0;
+  width: 100%;
   overflow: hidden;
 }
 
