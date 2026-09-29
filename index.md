@@ -16,9 +16,9 @@ I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China
 
   <div class="research-topics" aria-label="Research interests">
     <strong>Currently exploring</strong>
-    <span>LLMs for Math Proving</span>
+    <span>LLM Reasoning</span>
     <span>Agentic AI</span>
-    <span>World Model</span>
+    <span>Generative Models</span>
   </div>
 </section>
 
