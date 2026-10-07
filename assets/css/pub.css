@@ -68,9 +68,9 @@
 }
 
 .publication-meta .workshop-chip {
-  border-color: var(--line-strong);
-  background: var(--surface);
-  color: var(--muted);
+  border-color: rgba(var(--teal-rgb), 0.42);
+  background: rgba(var(--teal-rgb), 0.08);
+  color: var(--teal-dark);
 }
 
 .publication-body h3 {
