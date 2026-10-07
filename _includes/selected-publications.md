@@ -11,6 +11,7 @@
     {% assign selected_count = 0 %}
     {% for paper in site.data.publications.main %}
     {% unless paper.title == "IMPACTNet: Unifying Auto-bidding in End-to-End Merged Auctions" %}
+    {% unless paper.selected == false %}
     {% if selected_count < 3 %}
     {% assign selected_count = selected_count | plus: 1 %}
     <article class="selected-paper">
@@ -25,6 +26,7 @@
       </div>
     </article>
     {% endif %}
+    {% endunless %}
     {% endunless %}
     {% endfor %}
   </div>

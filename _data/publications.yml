@@ -1,5 +1,13 @@
 main:
 
+  - title: "Validation-Selected Post-Hoc Calibration of Joint Crash Risk in Multi-Asset Scenario Generators"
+    authors: Yanhui Ren, Ximan Sun, <strong>Zhiyuan Julian Su</strong>
+    conference_short: MLxOR
+    conference: Second Workshop on Machine Learning for Operations Research (MLxOR) at NeurIPS, 2026.
+    pdf: https://openreview.net/pdf?id=zZoFPFMF99
+    openreview: https://openreview.net/forum?id=zZoFPFMF99
+    selected: false
+
   - title: "Differentiating Network Design Objectives for Balancing Cost and Distance"
     authors: Zishang Chen, Longhe Lin, <strong>Zhiyuan Julian Su</strong>, Qi Qi
     conference_short: NeurIPS

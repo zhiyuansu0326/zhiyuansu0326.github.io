@@ -23,8 +23,9 @@
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-venue">{{ paper.conference }}</p>
-        {% if paper.code or paper.page or paper.data or paper.bibtex %}
+        {% if paper.openreview or paper.code or paper.page or paper.data or paper.bibtex %}
         <div class="publication-links">
+          {% if paper.openreview %}<a href="{{ paper.openreview }}" target="_blank" rel="noopener">OpenReview ↗</a>{% endif %}
           {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
           {% if paper.page %}<a href="{{ paper.page }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}
           {% if paper.data %}<a href="{{ paper.data }}" target="_blank" rel="noopener">Dataset ↗</a>{% endif %}
