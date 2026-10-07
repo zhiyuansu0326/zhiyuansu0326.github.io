@@ -18,14 +18,13 @@
     {% for paper in peer_reviewed %}
     <li class="publication-card">
       <span class="publication-index">0{{ forloop.index }}</span>
-      <div class="publication-meta"><span class="venue-chip">{{ paper.conference_short }}</span><span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span></div>
+      <div class="publication-meta"><span class="venue-chip{% if paper.category == 'workshop' %} workshop-chip{% endif %}">{{ paper.conference_short }}</span><span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span></div>
       <div class="publication-body">
         <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-venue">{{ paper.conference }}</p>
-        {% if paper.openreview or paper.code or paper.page or paper.data or paper.bibtex %}
+        {% if paper.code or paper.page or paper.data or paper.bibtex %}
         <div class="publication-links">
-          {% if paper.openreview %}<a href="{{ paper.openreview }}" target="_blank" rel="noopener">OpenReview ↗</a>{% endif %}
           {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">Code ↗</a>{% endif %}
           {% if paper.page %}<a href="{{ paper.page }}" target="_blank" rel="noopener">Project ↗</a>{% endif %}
           {% if paper.data %}<a href="{{ paper.data }}" target="_blank" rel="noopener">Dataset ↗</a>{% endif %}

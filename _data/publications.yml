@@ -5,7 +5,7 @@ main:
     conference_short: MLxOR
     conference: Second Workshop on Machine Learning for Operations Research (MLxOR) at NeurIPS, 2026.
     pdf: https://openreview.net/pdf?id=zZoFPFMF99
-    openreview: https://openreview.net/forum?id=zZoFPFMF99
+    category: workshop
     selected: false
 
   - title: "Differentiating Network Design Objectives for Balancing Cost and Distance"
