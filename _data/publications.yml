@@ -38,6 +38,12 @@ main:
     conference: ACM on Web Conference (TheWebConf), 2025.
     pdf: https://dl.acm.org/doi/pdf/10.1145/3696410.3714779?casa_token=8lqAC8Liak8AAAAA:lbsi8gr5tQAQds4gSyTdM3a7Rl43lK1yXwjDzjOtcXOxydg_JQJfvJxQtUKGAPxbZNspu3OlGT5ZcQ
 
+  - title: "Concept Subspaces Compute Beyond the Logit Lens: A Weights-Only Test for Locating Representations Upstream of Readout"
+    authors: Aojie Yuan, <strong>Zhiyuan Julian Su</strong>, Haiyue Zhang, Zijian Su
+    conference_short: arXiv
+    conference: arXiv:2609.39263, 2026.
+    pdf: https://arxiv.org/pdf/2609.39263
+
   - title: "Hidden Error Awareness in Chain-of-Thought Reasoning: The Signal Is Diagnostic, Not Causal"
     authors: Aojie Yuan, <strong>Zhiyuan Julian Su</strong>, Haiyue Zhang, Yi Nian, Yue Zhao
     conference_short: arXiv
