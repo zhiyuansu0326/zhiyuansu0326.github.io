@@ -1,7 +1,7 @@
 main:
 
   - title: "Validation-Selected Post-Hoc Calibration of Joint Crash Risk in Multi-Asset Scenario Generators"
-    authors: Yanhui Ren, Ximan Sun, <strong>Zhiyuan Julian Su</strong>
+    authors: Yanhui Ren<sup>*</sup>, Ximan Sun<sup>*</sup>, <strong>Zhiyuan Julian Su</strong>
     conference_short: MLxOR
     conference: Second Workshop on Machine Learning for Operations Research (MLxOR) at NeurIPS, 2026.
     pdf: https://openreview.net/pdf?id=zZoFPFMF99
@@ -9,7 +9,7 @@ main:
     selected: false
 
   - title: "Differentiating Network Design Objectives for Balancing Cost and Distance"
-    authors: Zishang Chen, Longhe Lin, <strong>Zhiyuan Julian Su</strong>, Qi Qi
+    authors: Zishang Chen<sup>*</sup>, Longhe Lin<sup>*</sup>, <strong>Zhiyuan Julian Su</strong>, Qi Qi
     conference_short: NeurIPS
     conference: Annual Conference on Neural Information Processing Systems (NeurIPS), 2026.
     # pdf: https://arxiv.org/pdf/2608.25370
@@ -21,7 +21,7 @@ main:
     pdf: https://arxiv.org/pdf/2608.25370
     
   - title: "IMPACTNet: Unifying Auto-bidding in End-to-End Merged Auctions"
-    authors: Yuhan Wang, Yuchao Ma, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
+    authors: Yuhan Wang<sup>*</sup>, Yuchao Ma<sup>*</sup>, Liang Zhang, Ziyuan Wang, <strong>Zhiyuan Su</strong>, Qi Qi, Yafei Wang, Xu Li, Yuyao Liu, Pengjie Wang, Jian Xu, Bo Zheng
     conference_short: KDD
     conference: ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), 2026.
     pdf: https://dl.acm.org/doi/epdf/10.1145/3770854.3780244
