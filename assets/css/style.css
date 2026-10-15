@@ -148,6 +148,10 @@ address {
   padding-bottom: 48px;
 }
 
+.homepage .site-content {
+  padding-bottom: 20px;
+}
+
 .profile-sidebar {
   position: sticky;
   top: calc(var(--nav-height) + 20px);
@@ -323,7 +327,7 @@ address {
 }
 
 .profile-intro {
-  padding: 24px 0 36px;
+  padding: 20px 0 24px;
   border-top: 4px solid var(--ink);
   border-bottom: 1px solid var(--ink);
 }
@@ -353,7 +357,7 @@ address {
 
 .intro-lead {
   max-width: 100%;
-  margin: 22px 0 20px;
+  margin: 16px 0;
   color: var(--ink-soft);
   font-size: 17px;
   line-height: 1.42;
@@ -363,7 +367,7 @@ address {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
-  padding-top: 18px;
+  padding-top: 14px;
   border-top: 1px solid var(--line);
 }
 
@@ -378,7 +382,7 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
-  margin-top: 18px;
+  margin-top: 14px;
 }
 
 .research-topics strong {
@@ -411,7 +415,7 @@ address {
 }
 
 .editorial-section {
-  padding: 44px 0;
+  padding: 28px 0;
   border-bottom: 1px solid var(--ink);
 }
 
@@ -420,7 +424,7 @@ address {
   grid-template-columns: minmax(0, 1fr) minmax(220px, 0.45fr);
   gap: 24px;
   align-items: end;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 }
 
 .section-heading > div {
@@ -504,7 +508,7 @@ address {
   grid-template-columns: 40px 102px minmax(0, 1fr);
   gap: 14px;
   align-items: start;
-  padding: 18px 0;
+  padding: 13px 0;
   border-bottom: 1px solid var(--line);
   transition: background-color 140ms ease, padding 140ms ease;
 }
@@ -556,7 +560,7 @@ address {
 }
 
 .selected-paper-main > p {
-  margin: 7px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
@@ -571,7 +575,7 @@ address {
 .contact-email-large {
   display: inline-flex;
   gap: 8px;
-  margin-top: 18px;
+  margin-top: 14px;
   padding-bottom: 4px;
   border-bottom: 2px solid var(--duke);
   color: var(--duke);
@@ -598,7 +602,7 @@ address {
   grid-template-columns: 82px 94px minmax(0, 1fr);
   gap: 14px;
   align-items: baseline;
-  padding: 12px 0;
+  padding: 9px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -645,8 +649,8 @@ address {
   grid-template-columns: 52px minmax(0, 1fr) 176px;
   gap: 16px;
   align-items: center;
-  min-height: 96px;
-  padding: 14px 0;
+  min-height: 84px;
+  padding: 11px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -745,7 +749,7 @@ address {
   display: grid;
   grid-template-columns: 74px 18px minmax(0, 1fr) 48px;
   gap: 14px;
-  min-height: 96px;
+  min-height: 84px;
 }
 
 .experience-date {
@@ -805,7 +809,11 @@ address {
 }
 
 .experience-copy {
-  padding-bottom: 14px;
+  padding-bottom: 12px;
+}
+
+.experience-item:last-child .experience-copy {
+  padding-bottom: 0;
 }
 
 .experience-copy h3 {
@@ -847,7 +855,7 @@ address {
   display: grid;
   grid-template-columns: 110px minmax(0, 1fr);
   gap: 18px;
-  padding: 16px 0;
+  padding: 11px 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--line);
 }
@@ -884,7 +892,7 @@ address {
 
 .contact-intro h2 {
   max-width: 620px;
-  margin: 9px 0 13px;
+  margin: 8px 0 10px;
   font-size: clamp(27px, 2.8vw, 34px);
 }
 
@@ -897,7 +905,7 @@ address {
 
 .contact-address {
   margin: 0;
-  padding: 15px 0;
+  padding: 12px 0;
   border-top: 4px solid var(--signal);
   border-bottom: 1px solid var(--ink);
   color: var(--ink-soft);
@@ -908,7 +916,7 @@ address {
 
 .contact-address > span {
   display: block;
-  margin-bottom: 9px;
+  margin-bottom: 7px;
   color: var(--signal);
   font: 600 12px/1 var(--mono);
   text-transform: uppercase;
@@ -1265,8 +1273,12 @@ address {
     padding-top: 24px;
   }
 
+  .homepage .site-content {
+    padding-top: 18px;
+  }
+
   .profile-intro {
-    padding-top: 20px;
+    padding-top: 18px;
   }
 
   .site-footer {
@@ -1337,8 +1349,12 @@ address {
     padding-top: 20px;
   }
 
+  .homepage .site-content {
+    padding-top: 16px;
+  }
+
   .profile-intro {
-    padding: 18px 0 28px;
+    padding: 16px 0 20px;
   }
 
   .profile-intro h1 {
@@ -1346,14 +1362,14 @@ address {
   }
 
   .intro-lead {
-    margin: 17px 0 16px;
+    margin: 14px 0;
     font-size: 16px;
   }
 
   .intro-copy {
     grid-template-columns: 1fr;
-    gap: 12px;
-    padding-top: 14px;
+    gap: 10px;
+    padding-top: 12px;
   }
 
   .research-topics span {
@@ -1379,13 +1395,18 @@ address {
   }
 
   .editorial-section {
-    padding: 34px 0;
+    padding: 24px 0;
   }
 
   .section-heading {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) 32px;
     gap: 8px;
-    margin-bottom: 18px;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+
+  .section-heading > .section-ornament::after {
+    width: 23px;
   }
 
   .section-heading > div {
@@ -1400,7 +1421,7 @@ address {
   .selected-paper {
     grid-template-columns: 28px 72px minmax(0, 1fr);
     gap: 9px;
-    padding: 15px 0;
+    padding: 12px 0;
   }
 
   .selected-paper h3 {
@@ -1414,7 +1435,7 @@ address {
   .news-list li {
     grid-template-columns: 64px 68px minmax(0, 1fr);
     gap: 8px;
-    padding: 11px 0;
+    padding: 9px 0;
   }
 
   .news-list time,
@@ -1428,9 +1449,9 @@ address {
 
   .education-item {
     grid-template-columns: 44px minmax(0, 1fr);
-    gap: 11px;
+    gap: 8px 11px;
     min-height: 0;
-    padding: 14px 0;
+    padding: 11px 0;
   }
 
   .institution-logo {
@@ -1480,7 +1501,7 @@ address {
 
   .contact-section {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 20px;
   }
 
   .page-intro {
