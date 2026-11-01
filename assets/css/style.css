@@ -140,7 +140,7 @@ address {
   gap: var(--layout-gap);
   width: min(calc(100% - 48px), var(--page-width));
   margin: 0 auto;
-  padding-top: calc(var(--nav-height) + 16px);
+  padding-top: calc(var(--nav-height) + 24px);
 }
 
 .site-content {
@@ -149,16 +149,16 @@ address {
 }
 
 .homepage .site-content {
-  padding-bottom: 12px;
+  padding-bottom: 20px;
 }
 
 .inner-content {
-  padding-bottom: 16px;
+  padding-bottom: 24px;
 }
 
 .profile-sidebar {
   position: sticky;
-  top: calc(var(--nav-height) + 16px);
+  top: calc(var(--nav-height) + 20px);
   align-self: start;
 }
 
@@ -189,7 +189,7 @@ address {
 }
 
 .profile-identity {
-  padding: 12px 0 10px;
+  padding: 16px 0 14px;
   border-bottom: 1px solid var(--line);
 }
 
@@ -288,7 +288,7 @@ address {
 }
 
 .profile-current {
-  padding: 12px 0 10px;
+  padding: 15px 0 14px;
 }
 
 .profile-current ul {
@@ -331,7 +331,7 @@ address {
 }
 
 .profile-intro {
-  padding: 16px 0 18px;
+  padding: 20px 0 24px;
   border-top: 4px solid var(--ink);
   border-bottom: 1px solid var(--ink);
 }
@@ -361,7 +361,7 @@ address {
 
 .intro-lead {
   max-width: 100%;
-  margin: 12px 0;
+  margin: 16px 0;
   color: var(--ink-soft);
   font-size: 17px;
   line-height: 1.42;
@@ -371,7 +371,7 @@ address {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 24px;
-  padding-top: 10px;
+  padding-top: 14px;
   border-top: 1px solid var(--line);
 }
 
@@ -379,14 +379,14 @@ address {
   margin: 0;
   color: var(--muted);
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.58;
 }
 
 .research-topics {
   display: flex;
   flex-wrap: wrap;
   gap: 0;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 
 .research-topics strong {
@@ -419,7 +419,7 @@ address {
 }
 
 .editorial-section {
-  padding: 18px 0 16px;
+  padding: 28px 0;
   border-bottom: 1px solid var(--ink);
 }
 
@@ -428,7 +428,7 @@ address {
   grid-template-columns: minmax(0, 1fr) minmax(220px, 0.45fr);
   gap: 24px;
   align-items: end;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .section-heading > div {
@@ -512,7 +512,7 @@ address {
   grid-template-columns: 40px 102px minmax(0, 1fr);
   gap: 14px;
   align-items: start;
-  padding: 10px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--line);
   transition: background-color 140ms ease, padding 140ms ease;
 }
@@ -547,7 +547,9 @@ address {
   text-transform: none;
 }
 
-.selected-paper h3 {
+.selected-paper h3,
+.institution-line h3,
+.experience-copy h3 {
   margin: 0;
   font: 600 17px/1.28 var(--display);
   letter-spacing: -0.012em;
@@ -564,7 +566,7 @@ address {
 }
 
 .selected-paper-main > p {
-  margin: 4px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
@@ -579,7 +581,7 @@ address {
 .contact-email-large {
   display: inline-flex;
   gap: 8px;
-  margin-top: 10px;
+  margin-top: 14px;
   padding-bottom: 4px;
   border-bottom: 2px solid var(--duke);
   color: var(--duke);
@@ -606,7 +608,7 @@ address {
   grid-template-columns: 82px 94px minmax(0, 1fr);
   gap: 14px;
   align-items: baseline;
-  padding: 7px 0;
+  padding: 9px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -653,8 +655,8 @@ address {
   grid-template-columns: 52px minmax(0, 1fr) 176px;
   gap: 16px;
   align-items: center;
-  min-height: 74px;
-  padding: 8px 0;
+  min-height: 80px;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
 }
 
@@ -678,11 +680,6 @@ address {
   align-items: center;
 }
 
-.institution-line h3 {
-  margin: 0;
-  font: 600 18px/1.15 var(--display);
-}
-
 .institution-line h3 a {
   color: var(--ink);
   text-decoration: none;
@@ -702,7 +699,7 @@ address {
 
 .education-school,
 .education-degree {
-  margin: 4px 0 0;
+  margin: 5px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.4;
@@ -720,7 +717,7 @@ address {
 
 .education-side {
   display: grid;
-  gap: 4px;
+  gap: 5px;
   justify-items: end;
   text-align: right;
 }
@@ -753,7 +750,7 @@ address {
   display: grid;
   grid-template-columns: 74px 18px minmax(0, 1fr) 48px;
   gap: 14px;
-  min-height: 74px;
+  min-height: 80px;
 }
 
 .experience-date {
@@ -813,16 +810,11 @@ address {
 }
 
 .experience-copy {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
 
 .experience-item:last-child .experience-copy {
   padding-bottom: 0;
-}
-
-.experience-copy h3 {
-  margin: 0;
-  font: 600 18px/1.15 var(--display);
 }
 
 .experience-copy h3 a,
@@ -837,7 +829,7 @@ address {
 }
 
 .experience-copy > p {
-  margin: 4px 0 0;
+  margin: 5px 0 0;
   font-size: 13px;
   line-height: 1.4;
 }
@@ -859,7 +851,7 @@ address {
   display: grid;
   grid-template-columns: 110px minmax(0, 1fr);
   gap: 18px;
-  padding: 8px 0;
+  padding: 11px 0;
   border-top: 1px solid var(--ink);
   border-bottom: 1px solid var(--line);
 }
@@ -896,7 +888,7 @@ address {
 
 .contact-intro h2 {
   max-width: 620px;
-  margin: 6px 0 8px;
+  margin: 8px 0 10px;
   font-size: clamp(27px, 2.8vw, 34px);
 }
 
@@ -909,7 +901,7 @@ address {
 
 .contact-address {
   margin: 0;
-  padding: 9px 0;
+  padding: 12px 0;
   border-top: 4px solid var(--signal);
   border-bottom: 1px solid var(--ink);
   color: var(--ink-soft);
@@ -920,7 +912,7 @@ address {
 
 .contact-address > span {
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   color: var(--signal);
   font: 600 12px/1 var(--mono);
   text-transform: uppercase;
@@ -928,7 +920,7 @@ address {
 
 .page-intro {
   position: relative;
-  padding: 14px 0;
+  padding: 18px 0;
   border-top: 4px solid var(--ink);
   border-bottom: 1px solid var(--ink);
 }
@@ -990,7 +982,7 @@ address {
 }
 
 .award-archive {
-  padding-top: 16px;
+  padding-top: 22px;
 }
 
 .award-year {
@@ -998,7 +990,7 @@ address {
   grid-template-columns: 72px minmax(0, 1fr);
   gap: 16px;
   align-items: center;
-  margin: 16px 0 5px;
+  margin: 22px 0 6px;
 }
 
 .award-year:first-child {
@@ -1026,7 +1018,7 @@ address {
   display: grid;
   grid-template-columns: 72px minmax(0, 1fr) 58px;
   gap: 16px;
-  padding: 7px 0;
+  padding: 10px 0;
   border-bottom: 1px solid var(--line);
   transition: background-color 140ms ease, box-shadow 140ms ease;
 }
@@ -1065,7 +1057,7 @@ address {
 }
 
 .award-item p {
-  margin: 3px 0 0;
+  margin: 4px 0 0;
   color: var(--muted);
   font-size: 13px;
 }
@@ -1084,7 +1076,7 @@ address {
   justify-content: space-between;
   width: min(calc(100% - 48px), var(--page-width));
   margin: 0 auto;
-  padding: 14px 0 20px calc(var(--rail-width) + var(--layout-gap));
+  padding: 18px 0 28px calc(var(--rail-width) + var(--layout-gap));
   border-top: 1px solid var(--line-strong);
   color: var(--muted);
   font: 500 12px/1.4 var(--mono);
@@ -1224,7 +1216,7 @@ address {
   .wrapper {
     display: block;
     width: min(calc(100% - 32px), 720px);
-    padding-top: calc(var(--nav-height) + 14px);
+    padding-top: calc(var(--nav-height) + 18px);
   }
 
   .profile-sidebar {
@@ -1279,11 +1271,11 @@ address {
 
   .homepage .site-content,
   .inner-content {
-    padding-top: 12px;
+    padding-top: 18px;
   }
 
   .profile-intro {
-    padding-top: 16px;
+    padding-top: 18px;
   }
 
   .site-footer {
@@ -1356,11 +1348,11 @@ address {
 
   .homepage .site-content,
   .inner-content {
-    padding-top: 12px;
+    padding-top: 16px;
   }
 
   .profile-intro {
-    padding: 14px 0 16px;
+    padding: 16px 0 20px;
   }
 
   .profile-intro h1 {
@@ -1368,14 +1360,14 @@ address {
   }
 
   .intro-lead {
-    margin: 12px 0;
+    margin: 14px 0;
     font-size: 16px;
   }
 
   .intro-copy {
     grid-template-columns: 1fr;
-    gap: 8px;
-    padding-top: 10px;
+    gap: 10px;
+    padding-top: 12px;
   }
 
   .research-topics span {
@@ -1401,14 +1393,14 @@ address {
   }
 
   .editorial-section {
-    padding: 18px 0 16px;
+    padding: 24px 0;
   }
 
   .section-heading {
     grid-template-columns: minmax(0, 1fr) 32px;
     gap: 8px;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
   }
 
   .section-heading > .section-ornament::after {
@@ -1427,10 +1419,12 @@ address {
   .selected-paper {
     grid-template-columns: 28px 72px minmax(0, 1fr);
     gap: 9px;
-    padding: 10px 0;
+    padding: 12px 0;
   }
 
-  .selected-paper h3 {
+  .selected-paper h3,
+  .institution-line h3,
+  .experience-copy h3 {
     font-size: 15px;
   }
 
@@ -1443,7 +1437,7 @@ address {
     grid-template-rows: auto 1fr;
     gap: 4px 10px;
     align-items: start;
-    padding: 7px 0;
+    padding: 9px 0;
   }
 
   .news-list time {
@@ -1473,9 +1467,9 @@ address {
 
   .education-item {
     grid-template-columns: 44px minmax(0, 1fr);
-    gap: 6px 11px;
+    gap: 8px 11px;
     min-height: 0;
-    padding: 8px 0;
+    padding: 10px 0;
   }
 
   .institution-logo {
@@ -1486,10 +1480,6 @@ address {
   .institution-logo img {
     width: 38px;
     height: 38px;
-  }
-
-  .institution-line h3 {
-    font-size: 16px;
   }
 
   .education-side {
@@ -1510,26 +1500,22 @@ address {
     gap: 9px;
   }
 
-  .experience-copy h3 {
-    font-size: 17px;
-  }
-
   .experience-logo {
     display: none;
   }
 
   .service-row {
     grid-template-columns: 1fr;
-    gap: 4px;
+    gap: 8px;
   }
 
   .contact-section {
     grid-template-columns: 1fr;
-    gap: 14px;
+    gap: 20px;
   }
 
   .page-intro {
-    padding: 12px 0;
+    padding: 16px 0;
   }
 
   .page-intro::before {
@@ -1556,7 +1542,7 @@ address {
     grid-template-columns: minmax(0, 1fr) auto;
     gap: 16px;
     align-items: center;
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .page-external-link {
@@ -1565,7 +1551,7 @@ address {
   }
 
   .award-archive {
-    padding-top: 16px;
+    padding-top: 20px;
   }
 
   .award-item {
