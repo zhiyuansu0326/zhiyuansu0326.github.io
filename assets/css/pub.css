@@ -1,9 +1,9 @@
 .publication-group {
-  padding: 24px 0 6px;
+  padding: 18px 0 4px;
 }
 
 .publication-group + .publication-group {
-  padding-top: 28px;
+  padding-top: 20px;
 }
 
 .publication-group-heading {
@@ -11,7 +11,7 @@
   grid-template-columns: 40px minmax(0, 1fr) auto;
   gap: 12px;
   align-items: baseline;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 
 .publication-group-heading h2 {
@@ -36,7 +36,7 @@
   display: grid;
   grid-template-columns: 40px 118px minmax(0, 1fr);
   gap: 14px;
-  padding: 13px 0;
+  padding: 9px 0;
   border-bottom: 1px solid var(--line);
   transition: background-color 140ms ease, padding 140ms ease;
 }
@@ -51,7 +51,7 @@
   display: grid;
   align-content: start;
   justify-items: start;
-  gap: 8px;
+  gap: 5px;
   color: var(--muted);
   font: 500 12px/1.45 var(--mono);
 }
@@ -76,7 +76,7 @@
 .publication-body h3 {
   max-width: 750px;
   margin: 0;
-  font: 600 19px/1.22 var(--display);
+  font: 600 18px/1.25 var(--display);
   letter-spacing: -0.015em;
 }
 
@@ -91,7 +91,7 @@
 }
 
 .publication-authors {
-  margin: 6px 0 0;
+  margin: 4px 0 0;
   color: var(--muted);
   font-size: 13px;
   line-height: 1.45;
@@ -144,11 +144,11 @@
 
 @media (max-width: 600px) {
   .publication-group {
-    padding-top: 20px;
+    padding-top: 16px;
   }
 
   .publication-group + .publication-group {
-    padding-top: 26px;
+    padding-top: 20px;
   }
 
   .publication-group-heading {
@@ -167,8 +167,8 @@
   .publication-card {
     grid-template-columns: 28px minmax(0, 1fr);
     column-gap: 8px;
-    row-gap: 6px;
-    padding: 12px 0;
+    row-gap: 5px;
+    padding: 9px 0;
   }
 
   .publication-index {
@@ -189,7 +189,7 @@
   }
 
   .publication-body h3 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   .publication-authors {
