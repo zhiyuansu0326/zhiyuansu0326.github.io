@@ -38,13 +38,12 @@
   gap: 14px;
   padding: 12px 0;
   border-bottom: 1px solid var(--line);
-  transition: background-color 140ms ease, padding 140ms ease;
+  transition: background-color 160ms ease, box-shadow 160ms ease;
 }
 
 .publication-card:hover {
-  padding-right: 10px;
-  padding-left: 10px;
   background: var(--surface);
+  box-shadow: -10px 0 0 var(--surface), 10px 0 0 var(--surface);
 }
 
 .publication-meta {
@@ -76,8 +75,8 @@
 .publication-body h3 {
   max-width: 750px;
   margin: 0;
-  font: 600 18px/1.25 var(--display);
-  letter-spacing: -0.015em;
+  font: 600 17px/1.28 var(--display);
+  letter-spacing: -0.012em;
 }
 
 .publication-body h3 a,
