@@ -3,23 +3,12 @@ layout: homepage
 ---
 
 <section class="profile-intro" data-reveal>
-  <h1><span>Learning</span> <strong>to decide</strong><br><em>under uncertainty.</em></h1>
-  <p class="intro-lead">I develop principled methods for intelligent systems that reason, adapt, and make reliable decisions over time.</p>
-
   <div class="intro-copy" markdown="1">
 
-I am a Ph.D. student in Electrical and Computer Engineering at [Duke University](https://www.duke.edu/){:target="_blank" rel="noopener"}, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/){:target="_blank" rel="noopener"} and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home){:target="_blank" rel="noopener"}.
-
-I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China](https://www.ruc.edu.cn/){:target="_blank" rel="noopener"}, working closely with [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/ZHANG-Xiao/){:target="_blank" rel="noopener"} and [Prof. Qi Qi](https://gsai.ruc.edu.cn/english/qiqi){:target="_blank" rel="noopener"}.
+I am a Ph.D. student in Electrical and Computer Engineering at [Duke University](https://www.duke.edu/){:target="_blank" rel="noopener"}, under the joint supervision of [Prof. Vahid Tarokh](https://people.duke.edu/~vt45/){:target="_blank" rel="noopener"} and [Prof. Xiang Cheng](https://sites.google.com/berkeley.edu/xiangcheng/home){:target="_blank" rel="noopener"}. I obtained my B.Eng. in Artificial Intelligence from [Renmin University of China](https://www.ruc.edu.cn/){:target="_blank" rel="noopener"}, working closely with [Prof. Xiao Zhang](https://pinkfloyd1989.github.io/ZHANG-Xiao/){:target="_blank" rel="noopener"} and [Prof. Qi Qi](https://gsai.ruc.edu.cn/english/qiqi){:target="_blank" rel="noopener"}. My research interests include reinforcement learning, LLM post-training, generative AI, and decision intelligence.
 
   </div>
 
-  <div class="research-topics" aria-label="Research interests">
-    <strong>Currently exploring</strong>
-    <span>LLM Reasoning</span>
-    <span>Agentic AI</span>
-    <span>Generative Models</span>
-  </div>
 </section>
 
 {% include_relative _includes/selected-publications.md %}

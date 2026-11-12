@@ -318,9 +318,6 @@ address {
 
 .profile-current > span {
   display: block;
-  margin-top: 12px;
-  padding-top: 10px;
-  border-top: 1px solid var(--line);
   color: var(--muted);
   font: 400 12px/1.4 var(--mono);
 }
@@ -369,10 +366,6 @@ address {
 
 .intro-copy {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 24px;
-  padding-top: 14px;
-  border-top: 1px solid var(--line);
 }
 
 .intro-copy p {
@@ -1367,7 +1360,6 @@ address {
   .intro-copy {
     grid-template-columns: 1fr;
     gap: 10px;
-    padding-top: 12px;
   }
 
   .research-topics span {
