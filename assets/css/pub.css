@@ -79,6 +79,10 @@
   letter-spacing: -0.012em;
 }
 
+.publication-body h3.natural-wrap {
+  text-wrap: wrap;
+}
+
 .publication-body h3 a,
 .publication-body h3 span {
   color: var(--ink);

@@ -20,7 +20,7 @@
       <span class="publication-index">0{{ forloop.index }}</span>
       <div class="publication-meta"><span class="venue-chip{% if paper.category == 'workshop' %} workshop-chip{% endif %}">{{ paper.conference_short }}</span><span>{{ paper.conference | split: ',' | last | remove: '.' | strip }}</span></div>
       <div class="publication-body">
-        <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
+        <h3{% if paper.title_wrap == 'normal' %} class="natural-wrap"{% endif %}>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
         <p class="publication-venue">{{ paper.conference }}</p>
         {% if paper.code or paper.page or paper.data or paper.bibtex %}
@@ -46,7 +46,7 @@
       <span class="publication-index">0{{ forloop.index }}</span>
       <div class="publication-meta"><span class="venue-chip preprint-chip">Preprint</span><span>{{ paper.conference }}</span></div>
       <div class="publication-body">
-        <h3>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
+        <h3{% if paper.title_wrap == 'normal' %} class="natural-wrap"{% endif %}>{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}<span>{{ paper.title }}</span>{% endif %}</h3>
         <p class="publication-authors">{{ paper.authors }}</p>
       </div>
     </li>
